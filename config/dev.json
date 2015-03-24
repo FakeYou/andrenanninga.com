@@ -1,0 +1,21 @@
+{
+  "source": "./src",
+  "destination": "./build",
+  "clean": true,
+  
+  "watch": {},
+  
+  "serve": {},
+
+  "markdown": {},
+
+  "layouts": {
+    "engine": "handlebars"
+  },
+  
+  "ignore": [
+    "layouts/*",
+    "pages/*"
+  ]
+
+}
