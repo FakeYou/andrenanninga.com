@@ -2,20 +2,33 @@
   "source": "./src",
   "destination": "./build",
   "clean": true,
-  
-  "watch": {},
-  
-  "serve": {},
 
-  "markdown": {},
+  "markdown": {
+    "smartypants": true,
+    "gfm": true,
+    "tables": true
+  },
 
   "layouts": {
     "engine": "handlebars"
   },
+
+  "collections": {
+    "pages": {
+      "sortBy": "date",
+      "reverse": true
+    }
+  },
+
+  "metallic": {},
+
+  "assets": {
+    "source": "./assets",
+    "destination": "./assets"
+  },
+
+  "watch": {},
   
-  "ignore": [
-    "layouts/*",
-    "pages/*"
-  ]
+  "serve": {}
 
 }

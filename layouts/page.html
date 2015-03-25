@@ -6,10 +6,10 @@
     <link rel="stylesheet" type="text/css" href="/assets/highlight.css">
   </head>
   <body>
-    {{#each pages}}
-      <h2><a href="/{{slug}}">{{title}}</a></h2>
+    {{{contents}}}
 
-      <img src="/{{slug}}/{{image}}">
+    {{#each scripts}}
+      <script src="{{this}}"></script>
     {{/each}}
   </body>
 </html>
