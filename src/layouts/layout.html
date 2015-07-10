@@ -3,7 +3,7 @@
   <head>
     <title>{{title}}</title>
 
-    <link rel="stylesheet" type="text/css" href="/assets/highlight.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/agate.css">
   </head>
   <body>
     {{#each pages}}
@@ -11,5 +11,9 @@
 
       <img src="/{{slug}}/{{image}}">
     {{/each}}
+
+    {{#if development}}
+      <script src="http://localhost:35729/livereload.js"></script>
+    {{/if}}
   </body>
 </html>

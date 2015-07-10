@@ -3,6 +3,10 @@
   "destination": "./build",
   "clean": true,
 
+  "define": {
+    "development": true
+  },
+
   "markdown": {
     "smartypants": true,
     "gfm": true,
@@ -10,7 +14,8 @@
   },
 
   "layouts": {
-    "engine": "handlebars"
+    "engine": "handlebars",
+    "directory": "src/layouts"
   },
 
   "collections": {
@@ -22,13 +27,27 @@
 
   "metallic": {},
 
-  "assets": {
-    "source": "./assets",
-    "destination": "./assets"
+  "ignore": [
+    "layouts/*"
+  ],
+
+  "assets": {},
+
+  "moveup": {
+    "pattern": "contents/**/*.*"
   },
 
-  "watch": {},
+  "watch": {
+    "livereload": true,
+    "paths": {
+      "${source}/**/*.*": true,
+      "${source}/layouts/**/*.html": "**/*.*",
+      "${source}/assets/**/*.*": "**/*.*"
+    }
+  },
   
-  "serve": {}
+  "serve": {
+    "verbose": false
+  }
 
 }
