@@ -35,17 +35,7 @@
     "pattern": "contents/**/*.*"
   },
 
-  "watch": {
-    "livereload": true,
-    "paths": {
-      "${source}/**/*.*": true,
-      "${source}/layouts/**/*.html": "**/*.*",
-      "${source}/assets/**/*.*": "**/*.*"
-    }
-  },
-  
-  "serve": {
-    "verbose": false
-  }
+  "watch": false,
+  "serve": false
 
 }

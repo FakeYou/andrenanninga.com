@@ -5,12 +5,12 @@ var serve       = require('metalsmith-serve');
 var watch       = require('metalsmith-watch');
 var markdown    = require('metalsmith-markdown');
 var layouts     = require('metalsmith-layouts');
-var assets      = require('metalsmith-assets');
 var ignore      = require('metalsmith-ignore');
 var collections = require('metalsmith-collections');
 var metallic    = require('metalsmith-metallic');
 var moveup      = require('metalsmith-move-up');
 var define      = require('metalsmith-define');
+var conditional = require('metalsmith-if');
 
 // todo: load environment specific config
 var config = require('./config/dev.json');
@@ -27,14 +27,15 @@ Metalsmith(__dirname)
   .use(collections(config.collections))
   .use(layouts(config.layouts))
   .use(ignore(config.ignore))
-  // .use(assets(config.assets))
   .use(moveup(config.moveup))
 
-  .use(watch(config.watch))
-  .use(serve(config.serve))
+  .use(conditional(config.watch, watch(config.watch)))
+  .use(conditional(config.serve, serve(config.serve)))
 
   .build(function(err) {
     if(err) {
-      console.error(err);
+      return console.error(err);
     }
+
+    console.log('finished build');
   });
