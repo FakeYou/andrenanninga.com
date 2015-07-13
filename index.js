@@ -11,6 +11,7 @@ var metallic    = require('metalsmith-metallic');
 var moveup      = require('metalsmith-move-up');
 var define      = require('metalsmith-define');
 var conditional = require('metalsmith-if');
+var sass        = require('metalsmith-sass');
 
 // todo: load environment specific config
 var config = require('./config/dev.json');
@@ -26,6 +27,7 @@ Metalsmith(__dirname)
   .use(markdown(config.markdown))
   .use(collections(config.collections))
   .use(layouts(config.layouts))
+  .use(sass(config.sass))
   .use(ignore(config.ignore))
   .use(moveup(config.moveup))
 
@@ -34,7 +36,9 @@ Metalsmith(__dirname)
 
   .build(function(err) {
     if(err) {
-      return console.error(err);
+      console.error(err);
+      console.error(err.stack);
+      return;
     }
 
     console.log('finished build');

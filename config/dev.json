@@ -27,6 +27,10 @@
 
   "metallic": {},
 
+  "sass": {
+    "outputDir": "css"
+  },
+
   "ignore": [
     "layouts/*"
   ],
@@ -40,7 +44,8 @@
     "paths": {
       "${source}/**/*.*": true,
       "${source}/layouts/**/*.html": "**/*.*",
-      "${source}/assets/**/*.*": "**/*.*"
+      "${source}/assets/**/*.*": "**/*.*",
+      "${source}/css/**/*.scss": "**/*.*"
     }
   },
   
