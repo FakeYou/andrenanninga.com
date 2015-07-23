@@ -1,17 +1,20 @@
 'use strict';
 
-var Metalsmith  = require('metalsmith');
-var serve       = require('metalsmith-serve');
-var watch       = require('metalsmith-watch');
-var markdown    = require('metalsmith-markdown');
-var layouts     = require('metalsmith-layouts');
-var ignore      = require('metalsmith-ignore');
-var collections = require('metalsmith-collections');
-var metallic    = require('metalsmith-metallic');
-var moveup      = require('metalsmith-move-up');
-var define      = require('metalsmith-define');
-var conditional = require('metalsmith-if');
-var sass        = require('metalsmith-sass');
+var Metalsmith     = require('metalsmith');
+var serve          = require('metalsmith-serve');
+var watch          = require('metalsmith-watch');
+var markdown       = require('metalsmith-markdown');
+var layouts        = require('metalsmith-layouts');
+var ignore         = require('metalsmith-ignore');
+var collections    = require('metalsmith-collections');
+var metallic       = require('metalsmith-metallic');
+var moveup         = require('metalsmith-move-up');
+var define         = require('metalsmith-define');
+var conditional    = require('metalsmith-if');
+var sass           = require('metalsmith-sass');
+var Handlebars     = require('handlebars');
+
+var helpers = require('./helpers')(Handlebars);
 
 // todo: load environment specific config
 var config = require('./config/dev.json');

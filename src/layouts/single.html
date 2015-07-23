@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>André Nanninga</title>
+    <title>{{title}}</title>
 
     <meta charset="utf-8">
 
@@ -23,11 +23,16 @@
       </nav>
     </header>
 
-    {{#each article}}
-      <article class="summary">
-        <h1><a href="/{{slug}}">{{title}}</a></h1>
-        <small>{{formatDate date day="numeric" month="long" year="numeric"}}</small>
-      </article>
+
+    <article>
+      <h1>{{title}}</h1>
+      <img src="{{image}}" width="600" class="responsive">
+    </article>
+
+    {{{contents}}}
+
+    {{#each scripts}}
+      <script src="{{this}}"></script>
     {{/each}}
 
     {{#if development}}
