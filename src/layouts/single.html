@@ -17,7 +17,7 @@
       <nav>
         <ul>
           <li><a href="/">home</a></li>
-          <li><a href="/whatever.html">whatever</a></li>
+          <li><a href="https://github.com/fakeyou">github</a></li>
           <li><a href="/contact.html">contact</a></li>
         </ul>
       </nav>
@@ -26,17 +26,33 @@
 
     <article>
       <h1>{{title}}</h1>
-      <img src="{{image}}" width="600" class="responsive">
+      
+      {{#if image}}
+        <img src="{{image}}" width="600" class="header responsive">
+      {{/if}}
+      {{#if playground}}
+        <div id="playground">
+          <div class="overlay"></div>
+        </div>
+      {{/if}}
+      
+      {{{contents}}}
     </article>
 
-    {{{contents}}}
+    <footer>
+      <a href="mailto:andre@nannin.ga">andre@nannin.ga</a>
+    </footer>
+
+    {{#if development}}
+      <script src="http://localhost:35729/livereload.js"></script>
+    {{/if}}
+
+    <script src="/assets/underscore.min.js"></script>
+    <script src="/assets/helpers.min.js"></script>
 
     {{#each scripts}}
       <script src="{{this}}"></script>
     {{/each}}
 
-    {{#if development}}
-      <script src="http://localhost:35729/livereload.js"></script>
-    {{/if}}
   </body>
 </html>

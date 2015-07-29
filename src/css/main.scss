@@ -57,11 +57,21 @@ header {
 	}
 }
 
+section {
+	max-width: $text-max-width;
+	margin: 5px auto 40px auto;
+}
+
 article {
 
 	&.summary {
-		max-width: $text-max-width;
+		display: inline-block;
 		margin: 5px auto 40px auto;
+
+		a {
+			display: block;
+			border-bottom: 1px solid $primary-color;
+		}
 
 		h1 {
 			margin: 0;
@@ -70,8 +80,21 @@ article {
 		small {
 			font-weight: bold;
 			color: $primary-color;
+
+			&.subtitle {
+				margin: 0;
+				float: right;
+			}
 		}
 	}
+}
+
+footer {
+	border-top: 1px solid $light-grey;
+	padding: 5px 0 0 0;
+	max-width: $text-max-width;
+	margin: 80px auto 20px auto;
+	font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6, p, pre, code {
@@ -99,6 +122,10 @@ a {
 	}
 }
 
+img, canvas {
+	display: block;
+}
+
 img.responsive {
 	height: auto;
 	width: 100%;
@@ -108,4 +135,8 @@ pre, code {
 	font-family: $font-mono;
 	font-size: 12px;
 	max-width: $text-max-width;
+}
+
+.hidden {
+	display: none;
 }

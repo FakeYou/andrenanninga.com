@@ -17,18 +17,29 @@
       <nav>
         <ul>
           <li><a href="/">home</a></li>
-          <li><a href="/whatever.html">whatever</a></li>
-          <li><a href="/contact.html">contact</a></li>
         </ul>
       </nav>
     </header>
 
-    {{#each article}}
-      <article class="summary">
-        <h1><a href="/{{slug}}">{{title}}</a></h1>
-        <small>{{formatDate date day="numeric" month="long" year="numeric"}}</small>
-      </article>
-    {{/each}}
+    <section>
+      {{#each articles}}
+        <article class="summary">
+          <a href="/{{slug}}">
+            <h1>{{title}}</h1>
+          </a>
+          
+          <small class="date">{{formatDate date day="numeric" month="long" year="numeric"}}</small>
+          {{#if subtitle}}
+            <small class="subtitle">{{subtitle}}</small>
+          {{/if}}
+        </article>
+        <br>
+      {{/each}}
+    </section>
+
+    <footer>
+      <a href="mailto:andre@nannin.ga">andre@nannin.ga</a>
+    </footer>
 
     {{#if development}}
       <script src="http://localhost:35729/livereload.js"></script>

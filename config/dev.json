@@ -19,7 +19,7 @@
   },
 
   "collections": {
-    "pages": {
+    "articles": {
       "sortBy": "date",
       "reverse": true
     }
@@ -29,6 +29,11 @@
 
   "sass": {
     "outputDir": "css"
+  },
+
+  "uglify": {
+    "filter": "**/!(*.min).js",
+    "removeOriginal": true
   },
 
   "ignore": [

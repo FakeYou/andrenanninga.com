@@ -12,6 +12,7 @@ var moveup         = require('metalsmith-move-up');
 var define         = require('metalsmith-define');
 var conditional    = require('metalsmith-if');
 var sass           = require('metalsmith-sass');
+var uglify         = require('metalsmith-uglify');
 var Handlebars     = require('handlebars');
 
 var helpers = require('./helpers')(Handlebars);
@@ -31,6 +32,7 @@ Metalsmith(__dirname)
   .use(collections(config.collections))
   .use(layouts(config.layouts))
   .use(sass(config.sass))
+  .use(uglify(config.uglify))
   .use(ignore(config.ignore))
   .use(moveup(config.moveup))
 
