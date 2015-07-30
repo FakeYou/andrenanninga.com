@@ -42,7 +42,7 @@ window.Helpers = {
 		// and dividing it with the defined width of the canvas
 		// we use the css transform property to set the scale of the canvas element
 		// thus making it responsive
-		var scale = Math.max(article.offsetWidth / canvas.width, 1);
+		var scale = Math.min(article.offsetWidth / canvas.width, 1);
 		canvas.style['transform-origin'] = '0 0';
 		canvas.style['transform'] = 'scale(' + scale + ')';
 

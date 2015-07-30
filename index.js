@@ -13,6 +13,7 @@ var define         = require('metalsmith-define');
 var conditional    = require('metalsmith-if');
 var sass           = require('metalsmith-sass');
 var uglify         = require('metalsmith-uglify');
+var drafts         = require('metalsmith-drafts');
 var Handlebars     = require('handlebars');
 
 var helpers = require('./helpers')(Handlebars);
@@ -29,6 +30,7 @@ Metalsmith(__dirname)
 
   .use(metallic(config.metallic))
   .use(markdown(config.markdown))
+  .use(drafts(config.drafts))
   .use(collections(config.collections))
   .use(layouts(config.layouts))
   .use(sass(config.sass))

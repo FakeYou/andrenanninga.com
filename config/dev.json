@@ -18,6 +18,8 @@
     "directory": "src/layouts"
   },
 
+  "drafts": {},
+
   "collections": {
     "articles": {
       "sortBy": "date",
