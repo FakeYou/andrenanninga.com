@@ -1,5 +1,5 @@
 {
-  "source": "./src",
+  "source": "./src/contents",
   "destination": "./build",
   "clean": true,
 
@@ -15,7 +15,8 @@
 
   "layouts": {
     "engine": "handlebars",
-    "directory": "src/layouts"
+    "directory": "src/layouts",
+    "pattern": "*.md"
   },
 
   "drafts": {},

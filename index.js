@@ -51,7 +51,11 @@ Metalsmith(__dirname)
   .build(function(err) {
     if(err) {
       console.error(err);
-      console.error(err.stack);
+
+      if(process.env.NODE_ENV !== 'production') {
+        console.error(err.stack);
+      }
+      
       return;
     }
 

@@ -12,10 +12,11 @@
     "gfm": true,
     "tables": true
   },
-
+  
   "layouts": {
     "engine": "handlebars",
-    "directory": "src/layouts"
+    "directory": "src/layouts",
+    "pattern": "*.md"
   },
 
   "drafts": {},
