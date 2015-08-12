@@ -18,8 +18,10 @@
     "directory": "src/layouts"
   },
 
+  "drafts": {},
+
   "collections": {
-    "pages": {
+    "articles": {
       "sortBy": "date",
       "reverse": true
     }
@@ -27,8 +29,18 @@
 
   "metallic": {},
 
+  "sass": {
+    "outputDir": "css"
+  },
+
+  "uglify": {
+    "filter": "**/!(*.min).js",
+    "removeOriginal": true
+  },
+
   "ignore": [
-    "layouts/*"
+    "layouts/*",
+    "layouts/partials/*"
   ],
 
   "moveup": {

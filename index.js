@@ -19,7 +19,12 @@ var Handlebars     = require('handlebars');
 var helpers = require('./helpers')(Handlebars);
 
 // todo: load environment specific config
-var config = require('./config/dev.json');
+if(process.env.NODE_ENV === 'production') {
+  var config = require('./config/prod.json');
+}
+else {
+  var config = require('./config/dev.json');
+}
 
 Metalsmith(__dirname)
   .source(config.source)
