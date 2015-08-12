@@ -47,7 +47,7 @@
     "pattern": "contents/**/*.*"
   },
 
-  "watch": false,
+  "watch": false,  
   "serve": false
 
 }

@@ -20,9 +20,11 @@ var helpers = require('./helpers')(Handlebars);
 
 // todo: load environment specific config
 if(process.env.NODE_ENV === 'production') {
+  console.log('using production config');
   var config = require('./config/prod.json');
 }
 else {
+  console.log('using development config');
   var config = require('./config/dev.json');
 }
 
