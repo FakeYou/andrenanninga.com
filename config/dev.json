@@ -14,6 +14,7 @@
   },
 
   "layouts": {
+    "default": "default.html",
     "engine": "handlebars",
     "directory": "src/layouts",
     "pattern": "contents/**/*.html"

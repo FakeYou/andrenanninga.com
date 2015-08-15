@@ -127,8 +127,9 @@ img, canvas {
 }
 
 img.responsive {
+	margin: 0 auto;
 	height: auto;
-	width: 100%;
+	max-width: 100%;
 }
 
 pre, code {
