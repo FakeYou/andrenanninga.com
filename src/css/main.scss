@@ -80,10 +80,17 @@ article {
 		small {
 			font-weight: bold;
 			color: $primary-color;
+			margin: 0;
+			display: inline-block;
+
+			&.date {
+				float: left;
+				margin-right: 10px;
+			}
 
 			&.subtitle {
-				margin: 0;
 				float: right;
+				margin-left: 10px;
 			}
 		}
 	}
