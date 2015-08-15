@@ -1,0 +1,142 @@
+body
+{
+	background: url('../img/dark_wall.png');
+	color: #FFF;
+	font-family: 'Signika', sans-serif;	
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	font-family: 'Pontano Sans', sans-serif;
+	font-weight: normal;
+	font-size: 64px;
+	margin: 0;
+}
+
+h2
+{
+	font-family: 'Pontano Sans', sans-serif;
+	font-weight: normal;
+	font-size: 32px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+a
+{
+	color: #E94E77;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+p
+{
+	margin: 20px 20px 0 20px;
+}
+
+#container
+{
+	z-index: 100;
+	width: 100%;
+}
+
+	#container header
+	{
+		color: #FFF;
+		background: #C6E5D9;
+		display: block;
+		padding: 20px 20px 0 20px;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+		width: 1000px;
+		z-index: 100;
+	}
+		
+		#container header:before
+		{
+			position: absolute;
+			content: '';
+			border: 20px solid transparent;
+			border-right: 20px solid #C6E5D9;
+			height: 0;
+			width: 0;
+			
+			bottom: -20px;
+			left: -20px;
+		}
+		
+		#container header:after
+		{
+			position: absolute;
+			content: '';
+			background: #C6E5D9;
+			height: 20px;
+			
+			bottom: -20px;
+			right: 0;
+			left: 20px;
+		}
+		
+
+		
+#container #content
+{
+	background: url('../img/content-background.png');
+	color: #FFF;
+	display: block;
+	line-height: 160%;
+	margin: -45px 0 0 -520px;
+	padding: 40px;
+	position: absolute;
+	text-align: left;
+	width: 960px;
+	
+	top: 200px;
+	left: 50%;
+}
+
+	#container #content h2
+	{
+		color: #FFF;
+		background-color: #99D1BB;
+		height: 25px;
+		padding: 0 40px 20px 40px;
+		position: relative;
+		margin: 40px -40px 20px -40px;
+	}
+	
+		#container #content h2:before
+		{
+			position: absolute;
+			border: 10px solid transparent;
+			border-right: 10px solid #99D1BB;
+			border-bottom: 10px solid #99D1BB;
+			content: '';
+			
+			font-size: 0;
+			line-height:0;
+			height: 0;
+			overflow: hidden;
+			
+			top: -20px;
+			left: 0px;
+		}
+		
+		#container #content h2:after
+		{
+			content: '';
+			position: absolute;
+			background: #99D1BB;
+			height: 20px;
+			
+			top: -20px;
+			left: 20px;
+			right: 0;
+		}
