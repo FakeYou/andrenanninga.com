@@ -29,4 +29,4 @@ People seemed to enjoy it, noting that they liked the graphic style and humor. S
 
 When the results came in I was very surprised to see that I managed to get the _12th place_ in the category _graphics_ and _#186_ overall. I was very happy with these results and I'm still participating in Ludum Dare as often as I can.
 
-<small>[Oh Dead, I've Lost My Hat on ludumdare.com](http://ludumdare.com/compo/ludum-dare-22/?action=preview&uid=7326#action=preview&uid=398)<small>
+<small>[Oh Dear, I've Lost My Hat on ludumdare.com](http://ludumdare.com/compo/ludum-dare-22/?action=preview&uid=7326#action=preview&uid=398)<small>
