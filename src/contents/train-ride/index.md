@@ -5,10 +5,10 @@ subtitle: JS1k 2015
 date: 2015-03-25
 collection: articles
 slug: train-ride
-image: trainride.png
+image: train-ride.png
 playground: true
 scripts: 
-  - trainride.min.js
+  - index.min.js
 ---
 
 [JS1k](http://js1k.com/) is a code golfing competition challenging programmers to create a neat little JavaScript program in under 1024 bytes. This years theme was [Hype Train](http://js1k.com/2015-hypetrain/).

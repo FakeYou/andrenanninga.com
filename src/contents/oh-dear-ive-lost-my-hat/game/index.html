@@ -1,44 +1,27 @@
-<!doctype html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-		<title>ludum dare #22</title>
-		<meta name="description" content="">
-		<meta name="author" content="Andre Nanninga">
-
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-
-		<link rel="stylesheet" href="assets/css/style.css">
+<div id="view">
+	<div id="text">
+		If you're seeing this text, please try a different browser.<br>
+		Your current browser may not support all features.
+	</div>
+	<div id="credits">
+		You did it! you found my hat and got me back home
+		<br>
+		<br>
+		This game was made for Ludum Dare #22. the theme was 'Alone'.
+		<br> 
+		It was made by me (Andre Nanninga) in less then 48 hours (15 minutes less).
+	</div>
+	
+	<div id="world">
+		<div id="cursor"><div class="cursor"></div>
+		<div id="building"></div>
+		<div id="floor"></div>	
 		
-		<script src="assets/js/game.min.js"></script>
-	</head>
-	<body id="body">
-		<div id="view">
-			<div id="text">
-				If you're seeing this text, please try a different browser.<br>
-				Your current browser may not support all features.
-			</div>
-			<div id="credits">
-				You did it! you found my hat and got me back home
-				<br>
-				<br>
-				This game was made for Ludum Dare #22. the theme was 'Alone'.
-				<br> 
-				It was made by me (Andre Nanninga) in less then 48 hours (15 minutes less).
-			</div>
-			
-			<div id="world">
-				<div id="cursor"><div class="cursor"></div>
-				<div id="building"></div>
-				<div id="floor"></div>	
-				
-				<div id="character">
-					<div class="character e"></div>
-				</div>
-			</div>
+		<div id="character">
+			<div class="character e"></div>
 		</div>
-		<canvas id="canvas" width="100" height="100">your browser doesn't support canvas, please use a different browser</canvas>
-		<div id="info"></div>
-	</body>
-</html>
+	</div>
+</div>
+<canvas id="canvas" width="100" height="100">your browser doesn't support canvas, please use a different browser</canvas>
+<div id="info"></div>
+<script src="assets/js/game.min.js"></script>
