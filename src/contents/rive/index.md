@@ -7,7 +7,7 @@ date: 2012-08-27
 slug: rive
 image: rive.png
 playground: true
-drafts: true
+draft: false
 scripts:
 	- index.min.js
 ---
