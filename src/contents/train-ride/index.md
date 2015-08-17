@@ -41,3 +41,5 @@ yXGP<9A435J6&&@d48J6Ac03@fc5Kfb1Vl(S,I+CM,C8-P-M,C;i<7ZK026V4228142884+4)}
 ZKddd66F139U77E87XKfff87F128U103F108U93F140U77},35);
 ';g=/[^ -?CIMPSTW[-~]/.exec(_);)with(_.split(g))_=join(shift());eval(_)
 ```
+
+<small>[Train Ride on js1k.com](http://js1k.com/2015-hypetrain/demo/2325)<small>
