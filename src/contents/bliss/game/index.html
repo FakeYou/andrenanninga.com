@@ -1,0 +1,45 @@
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<div id="stage">
+
+</div>
+<div id="backstage">
+	<img id="tileset" src="game/textures/height.png">
+	<div id="output"></div>
+</div>
+
+<div id="text">
+	<h4>Bliss by <a href="/">Andre Nanninga</a></h4>
+	<p>
+		Use <code>W</code> <code>S</code> <code>D</code> <code>A</code> to sail around the blissful waters.
+	</p>
+	<p>
+		<a href="/bliss">Back to the article</a>
+	</p>
+</div>
+
+<script src="js/libs.min.js"></script>
+<script src="js/game.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		stats = new Stats();
+		stats.setMode(0);
+
+		stats.domElement.style.position = 'absolute';
+		stats.domElement.style.left = '0px';
+		stats.domElement.style.top = '0px';
+		stats.domElement.style.display = 'none';
+
+		$('body').append(stats.domElement);
+
+		game = new Game();
+	});
+
+	$(document).on('keydown', Game.keydown);
+	$(document).on('keyup', Game.keyup);
+	$(document).on('mousemove', Game.mousemove);
+	$(document).on('mousedown', Game.mousedown);
+	$(document).on('mouseup', Game.mouseup);
+</script>
