@@ -120,6 +120,10 @@ p {
 	line-height: 160%;
 }
 
+article p:first-of-type {
+	margin-top: 40px;
+}
+
 a {
 	color: $text-color;
 	border-bottom: 1px solid $primary-color;
