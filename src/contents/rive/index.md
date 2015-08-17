@@ -12,7 +12,7 @@ scripts:
 	- index.min.js
 ---
 
-My second time participating [Ludum Dare](http://www.ludumdare.com/compo) wasn't much of a success. The theme was [Evolution](http://ludumdare.com/compo/ludum-dare-24/?action=preview) and I made the above game called __Rive__.
+My second time participating [Ludum Dare](http://ludumdare.com/compo) wasn't much of a success. The theme was [Evolution](http://ludumdare.com/compo/ludum-dare-24/?action=preview) and I made the above game called __Rive__.
 
 The game is about a spacefaring being that can split with slight mutations, evolving over time. The goal is to avoid the asteroids or rocks with all of the different mutations. When a mutation collides with an asteroid is killed.
 
