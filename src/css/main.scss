@@ -97,6 +97,16 @@ article {
 	}
 }
 
+section.error {
+	h1 {
+		margin-bottom: 0;
+	}
+
+	p {
+		margin-top: 0;
+	}
+}
+
 footer {
 	border-top: 1px solid $light-grey;
 	padding: 5px 0 0 0;
@@ -120,7 +130,7 @@ p {
 	line-height: 160%;
 }
 
-article p:first-of-type {
+article .playground + p:first-of-type {
 	margin-top: 40px;
 }
 
