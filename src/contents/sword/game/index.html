@@ -1,0 +1,53 @@
+<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+<style>
+  canvas {
+    display: block;
+    margin: 0 auto;
+  }
+  input {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+    background-color: #DDD;
+    border: 0;
+  }
+  h1 {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -350px;
+    width: 700px;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+  }
+  h2 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -350px;
+    width: 700px;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+  }
+  img {
+    display: none;
+  }
+</style>
+
+<h2 id="info">Type words of power to pull the sword</h2>
+
+<input id="input" type="text" autofocus>
+<canvas id="canvas" width="1000" height="640"></canvas>
+
+<h1 id="winner">You are the true master of the sword of power</h1>
+
+<img id="stone" src="assets/img/stone.png">
+<img id="sword" src="assets/img/sword.png">
+
+<script src="assets/js/game.min.js"></script>
