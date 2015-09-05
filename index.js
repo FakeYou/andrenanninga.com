@@ -1,5 +1,6 @@
 'use strict';
 
+var _              = require('underscore');
 var Metalsmith     = require('metalsmith');
 var serve          = require('metalsmith-serve');
 var watch          = require('metalsmith-watch');
@@ -16,7 +17,6 @@ var uglify         = require('metalsmith-uglify');
 var drafts         = require('metalsmith-drafts');
 var Handlebars     = require('handlebars');
 
-var helpers = require('./helpers')(Handlebars);
 
 if(process.env.NODE_ENV === 'production') {
   console.log('using production config');
@@ -27,6 +27,9 @@ else {
   var config = require('./config/dev.json');
 }
 
+var helpers = require('./lib/helpers')(Handlebars);
+var renderer = require('./lib/renderer')(config);
+
 Metalsmith(__dirname)
   .source(config.source)
   .destination(config.destination)
@@ -35,7 +38,7 @@ Metalsmith(__dirname)
   .use(define(config.define))
 
   .use(metallic(config.metallic))
-  .use(markdown(config.markdown))
+  .use(markdown(_.extend(config.markdown, { renderer: renderer })))
   .use(drafts(config.drafts))
   .use(collections(config.collections))
   .use(layouts(config.layouts))

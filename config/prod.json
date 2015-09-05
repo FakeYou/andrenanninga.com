@@ -3,6 +3,10 @@
   "destination": "./build",
   "clean": true,
 
+  "url": "andrenanninga.com",
+  "protocol": "http",
+
+
   "define": {
     "development": false
   },

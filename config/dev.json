@@ -3,6 +3,9 @@
   "destination": "./build",
   "clean": true,
 
+  "url": "localhost",
+  "protocol": "http",
+
   "define": {
     "development": true
   },
