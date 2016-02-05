@@ -12,6 +12,6 @@ scripts:
 	- index.min.js
 ---
 
-First experiment with React, A simple memory game. Still pretty buggy and far from perfect.
+My first experiment with React, A simple memory game. Still pretty buggy and far from perfect.
 
 <small>[React Memory on github](https://github.com/FakeYou/react-memory)<small>
