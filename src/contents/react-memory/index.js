@@ -1,0 +1,1 @@
+Helpers.createIframe(1000, 600, 'game/');
