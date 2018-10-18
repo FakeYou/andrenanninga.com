@@ -2,21 +2,42 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Section from '../components/Section';
+import Link from '../components/Link';
 
 export default () => (
 	<Layout>
 		<Section>
 			<h1>André Nanninga</h1>
 			<p>
-				Hoi 👋 my name is André. I'm a frontend developer focusing mostly on React Native and
-				Three.js. Most of my time I spent in Brno 🇨🇿 and Groningen 🇳🇱
+				Hoi 👋 my name is André. I'm a frontend developer focusing mostly on React, React Native and
+				Three.js. You can usually find me in Brno 🇨🇿 or Groningen 🇳🇱
 			</p>
+		</Section>
+
+		<Section>
+			<h2>🔬 Projects & experiments</h2>
+
+			<p>Here are some other projects & experiments I work on in my spare time.</p>
+
+			<h4>
+				<Link to="/tomb-raider">Tomb Raider</Link> —{' '}
+				<small>Tomb Raider 2 map, object and animation inspector</small>
+			</h4>
+
+			<h4>
+				<Link href="https://fakeyou.github.io/shooter">Shooter</Link> —{' '}
+				<small>First person shooter set in a musky dungeon</small>
+			</h4>
+
+			<h4>
+				<Link href="https://www.yogaoffice.se">Yoga at the Office</Link>
+			</h4>
 		</Section>
 
 		<Section>
 			<small>Currently I am working for</small>
 			<h2>
-				🎨 <a href="https://www.tapart.me">Tapart</a>
+				🎨 <Link href="https://www.tapart.me">Tapart</Link>
 			</h2>
 			<blockquote>
 				Building apps, websites, audio- and multimediatours, experiences and other cool stuff for
@@ -33,35 +54,15 @@ export default () => (
 				layer of our stack regularly.
 			</p>
 			<p>
-				Among our clients are <a href="https://www.vangoghmuseum.nl/">🌻 Van Gogh Museum</a> ,{' '}
-				<a href="https://www.mleuven.be/">Museum M</a> in Leuven,{' '}
-				<a href="https://www.boijmans.nl/en">Museum Boijmans van Beuningen</a> in Rotterdam and{' '}
-				<a href="http://www.groningermuseum.nl/">Groninger Museum</a>.
+				Among our clients are <Link href="https://www.vangoghmuseum.nl/">🌻 Van Gogh Museum</Link> ,{' '}
+				<Link href="https://www.mleuven.be/">Museum M</Link> in Leuven,{' '}
+				<Link href="https://www.boijmans.nl/en">Museum Boijmans van Beuningen</Link> in Rotterdam
+				and <Link href="http://www.groningermuseum.nl/">Groninger Museum</Link>.
 			</p>
 			<br />
 			<p>
-				I am also working with <a href="https://zupr.io">Zupr</a> to build their mobile apps.
+				I am also working with <Link href="https://zupr.io">Zupr</Link> to build their mobile apps.
 			</p>
-		</Section>
-
-		<Section>
-			<h2>🔬 Projects & experiments</h2>
-
-			<p>Here are some other projects & experiments I work on in my spare time.</p>
-
-			<h4>
-				<a href="https://fakeyou.github.io/tomb-raider">Tomb Raider</a> —{' '}
-				<small>Tomb Raider 2 map, object and animation inspector</small>
-			</h4>
-
-			<h4>
-				<a href="https://fakeyou.github.io/shooter">Shooter</a> —{' '}
-				<small>First person shooter set in a musky dungeon</small>
-			</h4>
-
-			<h4>
-				<a href="https://www.yogaoffice.se">Yoga at the Office</a>
-			</h4>
 		</Section>
 
 		<Section>
@@ -77,18 +78,18 @@ export default () => (
 				<em>
 					Buyways{' '}
 					<small>
-						(now known as <a href="https://www.opencii.nl/">Opencii</a>)
+						(now known as <Link href="https://www.opencii.nl/">Opencii</Link>)
 					</small>
 					.
 				</em>{' '}
-				— Fullstack development on webapps, using <a href="https://www.meteor.com/">Meteor</a>, for
-				clients in the public transport sector.
+				— Fullstack development on webapps, using <Link href="https://www.meteor.com/">Meteor</Link>
+				, mostly for clients in the public transport sector.
 			</p>
 			<p>
 				<em>
 					Windkr89 —{' '}
 					<small>
-						<a href="#">www.windkr89.nl</a>
+						<Link href="#">www.windkr89.nl</Link>
 					</small>
 				</em>
 			</p>
@@ -96,7 +97,7 @@ export default () => (
 				<em>
 					Aspin —{' '}
 					<small>
-						<a href="#">www.aspin.nl</a>
+						<Link href="#">www.aspin.nl</Link>
 					</small>
 				</em>
 			</p>
@@ -105,8 +106,9 @@ export default () => (
 		<Section>
 			<h2>Get in touch 📨</h2>
 			<p>
-				Send me an email at <a href="mailto:andre@nannin.ga">andre@nannin.ga</a> or find me on{' '}
-				<a href="https://github.com/andrenanninga">Github</a>.
+				Send me an email at <Link href="mailto:andre@nannin.ga">andre@nannin.ga</Link> or find me on{' '}
+				<Link href="https://twitter.com/andrenanninga">Twitter</Link> and{' '}
+				<Link href="https://github.com/andrenanninga">Github</Link>.
 			</p>
 		</Section>
 	</Layout>
