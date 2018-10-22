@@ -14,7 +14,7 @@ export default () => (
 			</p>
 		</Section>
 
-		<Section>
+		{/* <Section>
 			<h2>🔬 Projects & experiments</h2>
 
 			<p>Here are some other projects & experiments I work on in my spare time.</p>
@@ -32,7 +32,7 @@ export default () => (
 			<h4>
 				<Link href="https://www.yogaoffice.se">Yoga at the Office</Link>
 			</h4>
-		</Section>
+		</Section> */}
 
 		<Section>
 			<small>Currently I am working for</small>

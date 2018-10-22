@@ -4,12 +4,10 @@ import GatsbyLink from 'gatsby-link';
 
 const A = styled.a`
 	color: #ff2b17;
-	padding: 0.1rem 0.3rem 0 0.3rem;
 	transition: all 0.05s;
 
 	&:hover {
-		background-color: #ff2b17;
-		color: #fff;
+		text-decoration: underline;
 	}
 `;
 
@@ -19,8 +17,7 @@ const Link = styled(GatsbyLink)`
 	transition: all 0.05s;
 
 	&:hover {
-		background-color: #ff2b17;
-		color: #fff;
+		text-decoration: underline;
 	}
 `;
 
