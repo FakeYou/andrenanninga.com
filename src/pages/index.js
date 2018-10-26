@@ -14,25 +14,35 @@ export default () => (
 			</p>
 		</Section>
 
-		{/* <Section>
+		<Section>
 			<h2>🔬 Projects & experiments</h2>
 
 			<p>Here are some other projects & experiments I work on in my spare time.</p>
 
 			<h4>
-				<Link to="/tomb-raider">Tomb Raider</Link> —{' '}
-				<small>Tomb Raider 2 map, object and animation inspector</small>
+				<Link href="https://fakeyou.github.io/tomb-raider">Tomb Raider</Link> —{' '}
+				<small>An experiment to display Tomb Raider 2 levels with three.js</small>
 			</h4>
 
 			<h4>
-				<Link href="https://fakeyou.github.io/shooter">Shooter</Link> —{' '}
-				<small>First person shooter set in a musky dungeon</small>
+				<Link href="https://www.mleuven.be/en/app">M Leuven App</Link> —{' '}
+				<small>Mobile app for M Museum in Leuven created with React Native</small>
 			</h4>
 
 			<h4>
-				<Link href="https://www.yogaoffice.se">Yoga at the Office</Link>
+				<Link href="https://fakeyou.github.io/ludum-dare-40/">Snake 🐍 Charmer</Link> —{' '}
+				<small>Small game made for Ludum Dare 40</small>
 			</h4>
-		</Section> */}
+
+			<h4>
+				<Link href="https://www.rtrn.nl/portfolio/vnn/">Suzie</Link> —{' '}
+				<small>App to support people struggling with addictions, created using React Native</small>
+			</h4>
+
+			<h5>
+				<Link href="https://js1k.com/2015-hypetrain/demo/2325">JS1K 2015 — Train Ride</Link>
+			</h5>
+		</Section>
 
 		<Section>
 			<small>Currently I am working for</small>
@@ -108,7 +118,7 @@ export default () => (
 			<p>
 				Send me an email at <Link href="mailto:andre@nannin.ga">andre@nannin.ga</Link> or find me on{' '}
 				<Link href="https://twitter.com/andrenanninga">Twitter</Link> and{' '}
-				<Link href="https://github.com/andrenanninga">Github</Link>.
+				<Link href="https://github.com/fakeyou">Github</Link>.
 			</p>
 		</Section>
 	</Layout>
