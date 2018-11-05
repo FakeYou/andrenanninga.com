@@ -16,32 +16,26 @@ export default () => (
 
 		<Section>
 			<h2>🔬 Projects & experiments</h2>
-
 			<p>Here are some other projects & experiments I work on in my spare time.</p>
-
-			<h4>
+			<p>
 				<Link href="https://fakeyou.github.io/tomb-raider">Tomb Raider</Link> —{' '}
-				<small>An experiment to display Tomb Raider 2 levels with three.js</small>
-			</h4>
-
-			<h4>
+				<span>An experiment to display Tomb Raider 2 levels with three.js</span>
+			</p>
+			<p>
 				<Link href="https://www.mleuven.be/en/app">M Leuven App</Link> —{' '}
-				<small>Mobile app for M Museum in Leuven created with React Native</small>
-			</h4>
-
-			<h4>
+				<span>Mobile app for M Museum in Leuven created with React Native</span>
+			</p>
+			<p>
 				<Link href="https://fakeyou.github.io/ludum-dare-40/">Snake 🐍 Charmer</Link> —{' '}
-				<small>Small game made for Ludum Dare 40</small>
-			</h4>
-
-			<h4>
+				<span>span game made for Ludum Dare 40</span>
+			</p>
+			<p>
 				<Link href="https://www.rtrn.nl/portfolio/vnn/">Suzie</Link> —{' '}
-				<small>App to support people struggling with addictions, created using React Native</small>
-			</h4>
-
-			<h5>
+				<span>App to support people struggling with addictions, created using React Native</span>
+			</p>
+			<p>
 				<Link href="https://js1k.com/2015-hypetrain/demo/2325">JS1K 2015 — Train Ride</Link>
-			</h5>
+			</p>
 		</Section>
 
 		<Section>

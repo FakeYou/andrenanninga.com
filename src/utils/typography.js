@@ -12,6 +12,4 @@ const typography = new Typography({
 	})
 });
 
-console.log(typography);
-
 export default typography;
