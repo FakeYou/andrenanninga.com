@@ -6,9 +6,12 @@ const typography = new Typography({
 	overrideStyles: (config, options) => ({
 		...theme.overrideStyles(config, options),
 		small: {
-			fontFamily: theme.headerFontFamily.join(', ')
+			fontFamily: theme.headerFontFamily.join(', '),
+			fontSize: '60%'
 		}
 	})
 });
+
+console.log(typography);
 
 export default typography;

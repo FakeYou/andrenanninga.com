@@ -13,7 +13,6 @@ const A = styled.a`
 
 const Link = styled(GatsbyLink)`
 	color: #ff2b17;
-	padding: 0.1rem 0.3rem 0 0.3rem;
 	transition: all 0.05s;
 
 	&:hover {

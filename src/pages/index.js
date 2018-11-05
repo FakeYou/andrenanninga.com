@@ -95,21 +95,10 @@ export default () => (
 				— Fullstack development on webapps, using <Link href="https://www.meteor.com/">Meteor</Link>
 				, mostly for clients in the public transport sector.
 			</p>
+
 			<p>
-				<em>
-					Windkr89 —{' '}
-					<small>
-						<Link href="#">www.windkr89.nl</Link>
-					</small>
-				</em>
-			</p>
-			<p>
-				<em>
-					Aspin —{' '}
-					<small>
-						<Link href="#">www.aspin.nl</Link>
-					</small>
-				</em>
+				Please view my <Link to="/resume">résumé</Link> for more detailed info regarding my
+				experience.
 			</p>
 		</Section>
 
