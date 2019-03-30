@@ -1,0 +1,107 @@
+diff --git a/node_modules/@strv/eslint-config-typescript/index.js b/node_modules/@strv/eslint-config-typescript/index.js
+index efea0a8..fefe2fb 100644
+--- a/node_modules/@strv/eslint-config-typescript/index.js
++++ b/node_modules/@strv/eslint-config-typescript/index.js
+@@ -9,20 +9,13 @@
+ 'use strict'
+ 
+ module.exports = {
+-
+-  extends: require.resolve('@strv/eslint-plugin-base'),
++  extends: require.resolve('@strv/eslint-config-base'),
+ 
+   settings: {
+     // Correctly recognise .ts and .d.ts files when checking import paths against the filesystem
+     'import/resolver': {
+       node: {
+-        extensions: [
+-          '.ts',
+-          '.d.ts',
+-          '.mjs',
+-          '.js',
+-          '.json',
+-        ],
++        extensions: ['.ts', '.d.ts', '.mjs', '.js', '.json'],
+       },
+     },
+   },
+@@ -34,9 +27,7 @@ module.exports = {
+     sourceType: 'module',
+   },
+ 
+-  plugins: [
+-    '@typescript-eslint',
+-  ],
++  plugins: ['@typescript-eslint'],
+ 
+   env: {
+     es6: true,
+@@ -64,9 +55,12 @@ module.exports = {
+     // returned. This ensures that the return value is assigned to a variable of the correct type;
+     // or in the case where there is no return value, that the calling code doesn't try to use the
+     // undefined value when it shouldn't.
+-    '@typescript-eslint/explicit-function-return-type': ['warn', {
+-      allowExpressions: true,
+-    }],
++    '@typescript-eslint/explicit-function-return-type': [
++      'warn',
++      {
++        allowExpressions: true,
++      },
++    ],
+ 
+     // Require explicit accessibility modifiers on class properties and methods
+     // This rule aims to make code more readable and explicit about who can use which properties.
+@@ -79,14 +73,17 @@ module.exports = {
+ 
+     // Require a specific member delimiter style for interfaces and type literals
+     // This rule aims to standardise the way interface and type literal members are delimited.
+-    '@typescript-eslint/member-delimiter-style': ['warn', {
+-      multiline: {
+-        delimiter: 'none',
+-      },
+-      singleline: {
+-        delimiter: 'comma',
++    '@typescript-eslint/member-delimiter-style': [
++      'warn',
++      {
++        multiline: {
++          delimiter: 'none',
++        },
++        singleline: {
++          delimiter: 'comma',
++        },
+       },
+-    }],
++    ],
+ 
+     // Require a consistent member declaration order
+     // A consistent ordering of fields, methods and constructors can make interfaces, type literals,
+@@ -115,7 +112,6 @@ module.exports = {
+     // the type can be easily inferred from its value.
+     '@typescript-eslint/no-explicit-any': 'warn',
+ 
+-
+     // Disallow the use of custom TypeScript modules and namespaces
+     // Custom TypeScript modules (module foo {}) and namespaces (namespace foo {}) are considered
+     // outdated ways to organize TypeScript code. ES2015 module syntax is now preferred
+@@ -144,11 +140,14 @@ module.exports = {
+     // Disallow the use of variables before they are defined
+     // This rule will warn when it encounters a reference to an identifier that has not yet been
+     // declared.
+-    '@typescript-eslint/no-use-before-define': ['error', {
+-      functions: false,
+-      classes: false,
+-      typedefs: false,
+-    }],
++    '@typescript-eslint/no-use-before-define': [
++      'error',
++      {
++        functions: false,
++        classes: false,
++        typedefs: false,
++      },
++    ],
+ 
+     // Disallows the use of require statements except in import statements
+     // In other words, the use of forms such as var foo = require("foo") are banned. Instead use ES6
