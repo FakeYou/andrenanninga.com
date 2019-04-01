@@ -1,8 +1,9 @@
 import React from 'react'
-import Document, { Head, Main, NextScript } from 'next/document'
+import NextDocument, { Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import { GlobalStyle } from '../styles/global'
 
-export default class MyDocument extends Document {
+export default class MyDocument extends NextDocument {
   static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet()
     const page = renderPage(App => props =>
@@ -19,6 +20,7 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <GlobalStyle />
         </body>
       </html>
     )
