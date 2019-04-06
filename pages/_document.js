@@ -1,28 +1,38 @@
 import React from 'react'
-import NextDocument, { Head, Main, NextScript } from 'next/document'
+import NextDocument from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import { TypographyStyle, GoogleFont } from 'react-typography'
+import Head from '../components/head'
 import { GlobalStyle } from '../styles/global'
+import typography from '../styles/typography'
 
 export default class MyDocument extends NextDocument {
-  static getInitialProps({ renderPage }) {
+  static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet()
-    const page = renderPage(App => props =>
-      sheet.collectStyles(<App {...props} />)
-    )
-    const styleTags = sheet.getStyleElement()
-    return { ...page, styleTags }
-  }
+    const originalRenderPage = ctx.renderPage
 
-  render() {
-    return (
-      <html lang="en">
-        <Head>{this.props.styleTags}</Head>
-        <body>
-          <Main />
-          <NextScript />
-          <GlobalStyle />
-        </body>
-      </html>
-    )
+    try {
+      ctx.renderPage = () =>
+        originalRenderPage({
+          enhanceApp: App => props => sheet.collectStyles(<App {...props} />),
+        })
+
+      const initialProps = await NextDocument.getInitialProps(ctx)
+      return {
+        ...initialProps,
+        styles: (
+          <>
+            <Head />
+            {initialProps.styles}
+            {sheet.getStyleElement()}
+            <TypographyStyle typography={typography} />
+            <GoogleFont typography={typography} />
+            <GlobalStyle />
+          </>
+        ),
+      }
+    } finally {
+      sheet.seal()
+    }
   }
 }

@@ -4,8 +4,7 @@
   "private": true,
   "author": "",
   "scripts": {
-    "start": "next start",
-    "dev": "next",
+    "start": "next",
     "build": "next build",
     "lint": "eslint .",
     "analyze": "ANALYZE=1 next build",
@@ -19,7 +18,10 @@
     "next": "^7.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.1.2"
+    "react-typography": "^0.16.19",
+    "styled-components": "^4.1.2",
+    "typography": "^0.16.19",
+    "typography-theme-alton": "^0.16.19"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
