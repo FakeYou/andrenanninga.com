@@ -2,7 +2,6 @@ import React from 'react'
 import NextDocument from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import { TypographyStyle, GoogleFont } from 'react-typography'
-import Head from '../components/head'
 import { GlobalStyle } from '../styles/global'
 import typography from '../styles/typography'
 
@@ -22,7 +21,6 @@ export default class MyDocument extends NextDocument {
         ...initialProps,
         styles: (
           <>
-            <Head />
             {initialProps.styles}
             {sheet.getStyleElement()}
             <TypographyStyle typography={typography} />

@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "alias": "www.andrenanninga.com",
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+}

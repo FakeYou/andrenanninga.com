@@ -1,31 +1,28 @@
-// eslint-disable: @typescript-eslint/no-var-requires
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
-const withTypescript = require('@zeit/next-typescript')
-const withMDX = require('@zeit/next-mdx')()
+/* eslint-disable @typescript-eslint/no-var-requires */
 
-const { ANALYZE } = process.env
+function getServerPhase() {
+  if (process.env.NODE_ENV === 'development') {
+    return null
+  }
 
-module.exports = withMDX(
-  withTypescript({
-    webpack: (config, { isServer }) => {
-      if (ANALYZE) {
-        config.plugins.push(
-          new BundleAnalyzerPlugin({
-            analyzerMode: 'server',
-            analyzerPort: isServer ? 8888 : 8889,
-            openAnalyzer: true,
-          })
-        )
-      }
+  if (process.env.NOW_REGION) {
+    return require('next/constants').PHASE_PRODUCTION_SERVER
+  }
 
-      return config
-    },
+  return require('next-server/constants').PHASE_PRODUCTION_SERVER
+}
 
-    pageExtensions: ['js', 'mdx'],
-    exportPathMap(defaultPathMap) {
-      const pathMap = { ...defaultPathMap }
-      delete pathMap['/index']
-      return pathMap
-    },
-  })
-)
+module.exports = phase => {
+  if (phase === getServerPhase()) {
+    return {}
+  }
+
+  const withTypescript = require('@zeit/next-typescript')
+  const withMDX = require('@zeit/next-mdx')()
+
+  return withMDX(
+    withTypescript({
+      target: 'serverless',
+    })
+  )
+}
