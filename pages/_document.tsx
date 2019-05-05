@@ -1,12 +1,14 @@
 import React from 'react'
-import NextDocument from 'next/document'
+import NextDocument, {
+  NextDocumentContext,
+  DefaultDocumentIProps,
+} from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import { TypographyStyle, GoogleFont } from 'react-typography'
-import { GlobalStyle } from '../styles/global'
-import typography from '../styles/typography'
 
 export default class MyDocument extends NextDocument {
-  static async getInitialProps(ctx) {
+  static async getInitialProps(
+    ctx: NextDocumentContext
+  ): Promise<DefaultDocumentIProps> {
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
 
@@ -17,17 +19,10 @@ export default class MyDocument extends NextDocument {
         })
 
       const initialProps = await NextDocument.getInitialProps(ctx)
+
       return {
         ...initialProps,
-        styles: (
-          <>
-            {initialProps.styles}
-            {sheet.getStyleElement()}
-            <TypographyStyle typography={typography} />
-            <GoogleFont typography={typography} />
-            <GlobalStyle />
-          </>
-        ),
+        styles: [initialProps.styles, sheet.getStyleElement()],
       }
     } finally {
       sheet.seal()

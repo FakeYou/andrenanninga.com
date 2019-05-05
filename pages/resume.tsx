@@ -2,6 +2,19 @@ import React from 'react'
 import Link from 'next/link'
 import Head from '../components/Head'
 
+import {
+  H1,
+  H2,
+  H3,
+  H4,
+  P,
+  Ul,
+  Li,
+  A,
+  Blockquote,
+} from '../components/Typography'
+import { Box } from '../components/Grid'
+
 const Resume = () => (
   <>
     <Head
@@ -9,149 +22,192 @@ const Resume = () => (
       description="Hoi 👋 my name is André. I'm a frontend developer focusing mostly on
     React, React Native and Three.js."
     />
-    <Link href="/">
-      <a>← back</a>
+
+    <Link passHref href="/">
+      <A>← back</A>
     </Link>
-    <h1>Résumé</h1>
-    <p>
-      André Nanninga |{' '}
-      <Link href="mailto:andre@nannin.ga">
-        <a>andre@nannin.ga</a>
-      </Link>
-    </p>
-    <hr />
-    <h2>📠 Professional Experience</h2>
-    <h3>STRV - Brno, CZ</h3>
-    <p>
-      <strong>Frontend Developer</strong>
-      <br />
-      <em>February 2019 - Present</em>
-    </p>
-    <h3>Tapme Media - Groningen, NL</h3>
-    <p>
-      <strong>Frontend Developer</strong>
-      <br />
-      <em>April 2016 - February 2019</em>
-    </p>
-    <ul>
-      <li>Design and development of a multi-customer React Native solution</li>
-      <li>
-        Continued development and support of an Android app in use at a
-        world-renowned museum
-      </li>
-      <li>Development and deployment of various internal and external tools</li>
-      <li>Design of complete techonological architecture</li>
-      <li>Mentoring of junior developers</li>
-    </ul>
-    <h3>Zupr - Groningen, NL</h3>
-    <p>
-      <strong>Mobile Developer</strong>
-      <br />
-      <em>August 2018 - December 2018</em>
-    </p>
-    <ul>
-      <li>
-        Development of a React Native app for stock management in small stores
-      </li>
-      <li>Setup of continuous integration and deployment processes</li>
-    </ul>
-    <h3> Bitsupply - Groningen, NL</h3>
-    <p>
-      <strong>Fullstack Developer</strong>
-      <br />
-      <em>January 2015 - July 2015</em>
-    </p>
-    <ul>
-      <li>Development of a WebDAV enabled Node.js fileserver</li>
-      <li>Integration of filesystem into React webapp</li>
-      <li>General development of React webapp</li>
-    </ul>
-    <h3> Buyways - Groningen, NL</h3>
-    <p>
-      <strong>Fullstack Developer</strong>
-      <br />
-      <em>September 2013 - August 2014</em>
-    </p>
-    <ul>
-      <li>Fullstack development of Meteor webapp</li>
-      <li>Frontend development for various exisiting websites</li>
-      <li>Javascript development of internal tools</li>
-    </ul>
-    <h3>Windkr89 - Groningen, NL</h3>
-    <p>
-      <strong>Webdeveloper</strong>
-      <br />
-      <em>November 2012 - August 2013</em>
-    </p>
-    <ul>
-      <li>Frontend development for various websites</li>
-      <li>Plugin development for Wordpress</li>
-    </ul>
-    <h3>European School of English - Sliema, MT</h3>
-    <p>
-      <strong>IT Administration</strong>
-      <br />
-      <em>January 2012 - May 2012</em>
-    </p>
-    <ul>
-      <li>Identifying and reporting on SEO related issues on public website</li>
-      <li>Reporting on possible performance improvements on public website</li>
-    </ul>
-    <h3>Gamerspawn / Deltashock - Groningen, NL</h3>
-    <p>
-      <strong>Webdeveloper / Reporter</strong>
-      <br />
-      <em>April 2009 - January 2012</em>
-    </p>
-    <ul>
-      <li>Interviewing of (game)developers for a popular youtube channel</li>
-      <li>Reporting on game related news</li>
-      <li>Development of internal tools</li>
-    </ul>
+    <Box my={6}>
+      <H1>Résumé</H1>
+      <P>
+        André Nanninga |{' '}
+        <Link passHref href="mailto:andre@nannin.ga">
+          <A>andre@nannin.ga</A>
+        </Link>
+      </P>
+    </Box>
+    <H2>📠 Professional Experience</H2>
 
-    <hr />
-    <h2>🎓 Education</h2>
-    <h3>Hanzehogeschool - Groningen, NL</h3>
-    <p>
-      <strong>Bachelor of Science in Software Engineering</strong>
-      <br />
-      <em>February 2017</em>
-    </p>
-    <p>
-      This education focused on general computer science and applied knowledge
-      on development of software and websites.
-    </p>
+    <Box marginBottom={4}>
+      <H3 marginBottom={0}>STRV - Brno, CZ</H3>
+      <P>
+        <strong>Frontend Developer</strong>
+        <br />
+        <em>February 2019 - Present</em>
+      </P>
+    </Box>
 
-    <h3>Vilnius University - Vilnius, LT</h3>
-    <p>
-      <strong>Minor in Computer Science</strong>
-      <br />
-      <em>January 2015</em>
-    </p>
-    <p>
-      This education focused on computer science with a particular focues on
-      encoding, encryption and geometry.{' '}
-      <small>part of the ERASMUS exchange program</small>
-    </p>
+    <Box marginBottom={4}>
+      <H3 marginBottom={0}>Tapme Media - Groningen, NL</H3>
+      <P>
+        <strong>Frontend Developer</strong>
+        <br />
+        <em>April 2016 - February 2019</em>
+      </P>
+      <Ul>
+        <Li>
+          Design and development of a multi-customer React Native solution
+        </Li>
+        <Li>
+          Continued development and support of an Android app in use at a
+          world-renowned museum
+        </Li>
+        <Li>
+          Development and deployment of various internal and external tools
+        </Li>
+        <Li>Design of complete techonological architecture</Li>
+        <Li>Mentoring of junior developers</Li>
+      </Ul>
+    </Box>
 
-    <h3>Alfa College - Groningen, NL</h3>
-    <p>
-      <strong>Degree in System Administration</strong>
-      <br />
-      <em>May 2012</em>
-    </p>
-    <p>
-      This education focued on system and network administration including Cisco
-      Networking, Microsoft Sharepoint and Windows and Linux System
-      Administration.
-    </p>
+    <Box marginBottom={4}>
+      <H3 marginBottom={0}>Zupr - Groningen, NL</H3>
+      <P>
+        <strong>Mobile Developer</strong>
+        <br />
+        <em>August 2018 - December 2018</em>
+      </P>
+      <Ul>
+        <Li>
+          Development of a React Native app for stock management in small stores
+        </Li>
+        <Li>Setup of continuous integration and deployment processes</Li>
+      </Ul>
+    </Box>
 
-    <hr />
-    <h2>🏃‍♂️ Interests</h2>
-    <p>
-      Running, Game-development, LEGO, Data-visualization, 3D, Animation,
-      Generative Art, Procedural Generation, Hiking, Mountainbiking.
-    </p>
+    <Box marginBottom={4}>
+      <H3 marginBottom={0}>Bitsupply - Groningen, NL</H3>
+      <P>
+        <strong>Fullstack Developer</strong>
+        <br />
+        <em>January 2015 - July 2015</em>
+      </P>
+      <Ul>
+        <Li>Development of a WebDAV enabled Node.js fileserver</Li>
+        <Li>Integration of filesystem into React webapp</Li>
+        <Li>General development of React webapp</Li>
+      </Ul>
+    </Box>
+
+    <Box marginBottom={4}>
+      <H3 marginBottom={0}>Buyways - Groningen, NL</H3>
+      <P>
+        <strong>Fullstack Developer</strong>
+        <br />
+        <em>September 2013 - August 2014</em>
+      </P>
+      <Ul>
+        <Li>Fullstack development of Meteor webapp</Li>
+        <Li>Frontend development for various exisiting websites</Li>
+        <Li>Javascript development of internal tools</Li>
+      </Ul>
+    </Box>
+
+    <Box marginBottom={4}>
+      <H3 marginBottom={0}>Windkr89 - Groningen, NL</H3>
+      <P>
+        <strong>Webdeveloper</strong>
+        <br />
+        <em>November 2012 - August 2013</em>
+      </P>
+      <Ul>
+        <Li>Frontend development for various websites</Li>
+        <Li>Plugin development for Wordpress</Li>
+      </Ul>
+    </Box>
+
+    <Box marginBottom={4}>
+      <H3 marginBottom={0}>European School of English - Sliema, MT</H3>
+      <P>
+        <strong>IT Administration</strong>
+        <br />
+        <em>January 2012 - May 2012</em>
+      </P>
+      <Ul>
+        <Li>
+          Identifying and reporting on SEO related issues on public website
+        </Li>
+        <Li>
+          Reporting on possible performance improvements on public website
+        </Li>
+      </Ul>
+    </Box>
+
+    <Box marginBottom={6}>
+      <H3 marginBottom={0}>Gamerspawn / Deltashock - Groningen, NL</H3>
+      <P>
+        <strong>Webdeveloper / Reporter</strong>
+        <br />
+        <em>April 2009 - January 2012</em>
+      </P>
+      <Ul>
+        <Li>Interviewing of (game)developers for a popular youtube channel</Li>
+        <Li>Reporting on game related news</Li>
+        <Li>Development of internal tools</Li>
+      </Ul>
+    </Box>
+
+    <Box marginBottom={5}>
+      <H2>🎓 Education</H2>
+
+      <Box marginBottom={4}>
+        <H3 marginBottom={0}>Hanzehogeschool - Groningen, NL</H3>
+        <P>
+          <strong>Bachelor of Science in Software Engineering</strong>
+          <br />
+          <em>February 2017</em>
+        </P>
+        <P>
+          This education focused on general computer science and applied
+          knowledge on development of software and websites.
+        </P>
+      </Box>
+
+      <Box marginBottom={4}>
+        <H3 marginBottom={0}>Vilnius University - Vilnius, LT</H3>
+        <P>
+          <strong>Minor in Computer Science</strong>
+          <br />
+          <em>January 2015</em>
+        </P>
+        <P>
+          This education focused on computer science with a particular focues on
+          encoding, encryption and geometry.{' '}
+          <small>part of the ERASMUS exchange program</small>
+        </P>
+      </Box>
+
+      <Box marginBottom={4}>
+        <H3 marginBottom={0}>Alfa College - Groningen, NL</H3>
+        <P>
+          <strong>Degree in System Administration</strong>
+          <br />
+          <em>May 2012</em>
+        </P>
+        <P>
+          This education focued on system and network administration including
+          Cisco Networking, Microsoft Sharepoint and Windows and Linux System
+          Administration.
+        </P>
+      </Box>
+    </Box>
+
+    <Box marginBottom={6}>
+      <H2>🏃‍♂️ Interests</H2>
+      <P>
+        Running, Game-development, LEGO, Data-visualization, 3D, Animation,
+        Generative Art, Procedural Generation, Hiking, Mountainbiking.
+      </P>
+    </Box>
   </>
 )
 

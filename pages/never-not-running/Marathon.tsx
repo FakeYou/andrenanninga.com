@@ -1,17 +1,34 @@
 import React from 'react'
 import * as d3 from 'd3'
+import dynamic from 'next/dynamic'
+
+// const isServer = typeof window === 'undefined'
+// const mapboxgl = !isServer ? require('mapbox-gl') : null
+
+// console.log(mapboxgl)
 
 type Props = {
   run?: Run
 }
 
 const Marathon: React.FunctionComponent<Props> = ({ run }) => {
-  const reference = React.createRef()
+  const reference = React.createRef<SVGSVGElement>()
 
   React.useEffect(() => {
     if (!run) {
       return
     }
+
+    // if (mapboxgl) {
+    //   mapboxgl.accessToken =
+    //     'pk.eyJ1IjoiZW5qYWxvdCIsImEiOiJjaWhtdmxhNTIwb25zdHBsejk0NGdhODJhIn0.2-F2hS_oTZenAWc0BMf_uw'
+    //   // var map = new mapboxgl.Map({
+    //   //   container: 'map', // container id
+    //   //   style: 'mapbox://styles/enjalot/cihmvv7kg004v91kn22zjptsc',
+    //   //   center: [-0.1, 51.5119112],
+    //   //   zoom: 13.5,
+    //   // })
+    // }
 
     const width = 400
     const height = 400
@@ -76,7 +93,12 @@ const Marathon: React.FunctionComponent<Props> = ({ run }) => {
       })
   }, [run])
 
-  return <svg ref={reference} width={400} height={400} />
+  return (
+    <>
+      <svg ref={reference} width={400} height={400} />
+      <div id="map" style={{ width: 400, height: 400 }} />
+    </>
+  )
 }
 
 export default Marathon

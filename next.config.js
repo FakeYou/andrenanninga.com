@@ -1,19 +1,14 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-var-requires, no-nested-ternary */
 
-function getServerPhase() {
-  if (process.env.NODE_ENV === 'development') {
-    return null
-  }
-
-  if (process.env.NOW_REGION) {
-    return require('next/constants').PHASE_PRODUCTION_SERVER
-  }
-
-  return require('next-server/constants').PHASE_PRODUCTION_SERVER
-}
+const { PHASE_PRODUCTION_SERVER } =
+  process.env.NODE_ENV === 'development'
+    ? {}
+    : !process.env.NOW_REGION
+    ? require('next/constants')
+    : require('next-server/constants')
 
 module.exports = phase => {
-  if (phase === getServerPhase()) {
+  if (phase === PHASE_PRODUCTION_SERVER) {
     return {}
   }
 
