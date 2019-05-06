@@ -1,11 +1,5 @@
 import React from 'react'
 import * as d3 from 'd3'
-import dynamic from 'next/dynamic'
-
-// const isServer = typeof window === 'undefined'
-// const mapboxgl = !isServer ? require('mapbox-gl') : null
-
-// console.log(mapboxgl)
 
 type Props = {
   run?: Run
@@ -18,17 +12,6 @@ const Marathon: React.FunctionComponent<Props> = ({ run }) => {
     if (!run) {
       return
     }
-
-    // if (mapboxgl) {
-    //   mapboxgl.accessToken =
-    //     'pk.eyJ1IjoiZW5qYWxvdCIsImEiOiJjaWhtdmxhNTIwb25zdHBsejk0NGdhODJhIn0.2-F2hS_oTZenAWc0BMf_uw'
-    //   // var map = new mapboxgl.Map({
-    //   //   container: 'map', // container id
-    //   //   style: 'mapbox://styles/enjalot/cihmvv7kg004v91kn22zjptsc',
-    //   //   center: [-0.1, 51.5119112],
-    //   //   zoom: 13.5,
-    //   // })
-    // }
 
     const width = 400
     const height = 400
@@ -80,23 +63,22 @@ const Marathon: React.FunctionComponent<Props> = ({ run }) => {
       .attr('r', 4)
       .attr('fill', 'green')
 
-    d3.transition(`run-${Math.random()}`)
-      .duration(run.properties.coordTimes.length * 50)
-      .ease(d3.easeLinear)
-      .tween('run', () => t => {
-        const index = t * run.geometry.coordinates.length
-        const point = projection([longitude(index), latitude(index)])
+    // d3.transition(`run-${Math.random()}`)
+    //   .duration(run.properties.coordTimes.length * 50)
+    //   .ease(d3.easeLinear)
+    //   .tween('run', () => t => {
+    //     const index = t * run.geometry.coordinates.length
+    //     const point = projection([longitude(index), latitude(index)])
 
-        if (point) {
-          circle.attr('cx', point[0]).attr('cy', point[1])
-        }
-      })
+    //     if (point) {
+    //       circle.attr('cx', point[0]).attr('cy', point[1])
+    //     }
+    //   })
   }, [run])
 
   return (
     <>
       <svg ref={reference} width={400} height={400} />
-      <div id="map" style={{ width: 400, height: 400 }} />
     </>
   )
 }

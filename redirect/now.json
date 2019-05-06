@@ -6,17 +6,7 @@
     "www.andrenanninga.nl",
     "andrenanninga.nl"
   ],
-  "builds": [
-    {
-      "src": "./*.html",
-      "use": "@now/static"
-    }
-  ],
   "routes": [
-    {
-      "src": "/test",
-      "dest": "/test.html"
-    },
     {
       "src": "/(.*)",
       "status": 301,
