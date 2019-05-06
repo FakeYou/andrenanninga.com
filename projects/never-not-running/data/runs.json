@@ -2,1254 +2,1254 @@
   {
     "id": "906576049",
     "date": "2017-03-16 16:05:56",
-    "elapsed_time": "1970",
-    "distance": "6016.6",
+    "elapsedTime": 1970,
+    "distance": 6016.6,
     "filename": "./runs/1005830567.json"
   },
   {
     "id": "906579127",
     "date": "2017-03-14 17:14:20",
-    "elapsed_time": "3463",
-    "distance": "9959.9",
+    "elapsedTime": 3463,
+    "distance": 9959.9,
     "filename": "./runs/1005833842.json"
   },
   {
     "id": "906581617",
     "date": "2017-03-04 14:54:49",
-    "elapsed_time": "1688",
-    "distance": "4996.5",
+    "elapsedTime": 1688,
+    "distance": 4996.5,
     "filename": "./runs/1005836507.json"
   },
   {
     "id": "906581631",
     "date": "2017-03-11 12:30:49",
-    "elapsed_time": "1532",
-    "distance": "4981.3",
+    "elapsedTime": 1532,
+    "distance": 4981.3,
     "filename": "./runs/1005836510.json"
   },
   {
     "id": "906581635",
     "date": "2017-02-20 15:06:56",
-    "elapsed_time": "3236",
-    "distance": "9003.8",
+    "elapsedTime": 3236,
+    "distance": 9003.8,
     "filename": "./runs/1005836477.json"
   },
   {
     "id": "906581644",
     "date": "2017-02-23 10:55:59",
-    "elapsed_time": "2435",
-    "distance": "5880.2",
+    "elapsedTime": 2435,
+    "distance": 5880.2,
     "filename": "./runs/1005836491.json"
   },
   {
     "id": "906581645",
     "date": "2017-03-01 17:54:56",
-    "elapsed_time": "3280",
-    "distance": "9994.1",
+    "elapsedTime": 3280,
+    "distance": 9994.1,
     "filename": "./runs/1005836501.json"
   },
   {
     "id": "906581661",
     "date": "2017-03-12 14:04:27",
-    "elapsed_time": "2619",
-    "distance": "7995.7",
+    "elapsedTime": 2619,
+    "distance": 7995.7,
     "filename": "./runs/1005836530.json"
   },
   {
     "id": "906583505",
     "date": "2017-02-04 10:26:01",
-    "elapsed_time": "1668",
-    "distance": "5022.1",
+    "elapsedTime": 1668,
+    "distance": 5022.1,
     "filename": "./runs/1005838494.json"
   },
   {
     "id": "906583521",
     "date": "2017-02-06 17:13:19",
-    "elapsed_time": "1786",
-    "distance": "5001.2",
+    "elapsedTime": 1786,
+    "distance": 5001.2,
     "filename": "./runs/1005838510.json"
   },
   {
     "id": "906583531",
     "date": "2017-02-14 17:25:29",
-    "elapsed_time": "1652",
-    "distance": "4989.0",
+    "elapsedTime": 1652,
+    "distance": 4989.0,
     "filename": "./runs/1005838532.json"
   },
   {
     "id": "906583598",
     "date": "2017-02-12 12:55:42",
-    "elapsed_time": "2741",
-    "distance": "7480.0",
+    "elapsedTime": 2741,
+    "distance": 7480.0,
     "filename": "./runs/1005838522.json"
   },
   {
     "id": "906583626",
     "date": "2017-02-19 09:26:52",
-    "elapsed_time": "2758",
-    "distance": "6939.2",
+    "elapsedTime": 2758,
+    "distance": 6939.2,
     "filename": "./runs/1005838536.json"
   },
   {
     "id": "907938183",
     "date": "2017-03-19 13:32:11",
-    "elapsed_time": "2429",
-    "distance": "7500.3",
+    "elapsedTime": 2429,
+    "distance": 7500.3,
     "filename": "./runs/1007285063.json"
   },
   {
     "id": "909010302",
     "date": "2017-03-21 16:13:14",
-    "elapsed_time": "4032",
-    "distance": "11997.2",
+    "elapsedTime": 4032,
+    "distance": 11997.2,
     "filename": "./runs/1008417282.json"
   },
   {
     "id": "911662449",
     "date": "2017-03-23 17:00:07",
-    "elapsed_time": "1586",
-    "distance": "5022.1",
+    "elapsedTime": 1586,
+    "distance": 5022.1,
     "filename": "./runs/1011152377.json"
   },
   {
     "id": "914952207",
     "date": "2017-03-26 08:51:48",
-    "elapsed_time": "5379",
-    "distance": "14943.2",
+    "elapsedTime": 5379,
+    "distance": 14943.2,
     "filename": "./runs/1014562678.json"
   },
   {
     "id": "924610602",
     "date": "2017-04-02 09:45:20",
-    "elapsed_time": "4486",
-    "distance": "10038.5",
+    "elapsedTime": 4486,
+    "distance": 10038.5,
     "filename": "./runs/1024486235.json"
   },
   {
     "id": "927532739",
     "date": "2017-04-04 10:15:49",
-    "elapsed_time": "2824",
-    "distance": "6385.7",
+    "elapsedTime": 2824,
+    "distance": 6385.7,
     "filename": "./runs/1027494395.json"
   },
   {
     "id": "930645683",
     "date": "2017-04-06 15:52:05",
-    "elapsed_time": "2709",
-    "distance": "7990.6",
+    "elapsedTime": 2709,
+    "distance": 7990.6,
     "filename": "./runs/1030683888.json"
   },
   {
     "id": "933330101",
     "date": "2017-04-08 13:19:50",
-    "elapsed_time": "1879",
-    "distance": "5323.8",
+    "elapsedTime": 1879,
+    "distance": 5323.8,
     "filename": "./runs/1033436854.json"
   },
   {
     "id": "936552132",
     "date": "2017-04-10 16:39:44",
-    "elapsed_time": "2621",
-    "distance": "8098.5",
+    "elapsedTime": 2621,
+    "distance": 8098.5,
     "filename": "./runs/1036781043.json"
   },
   {
     "id": "940508697",
     "date": "2017-04-13 15:16:30",
-    "elapsed_time": "2898",
-    "distance": "8453.2",
+    "elapsedTime": 2898,
+    "distance": 8453.2,
     "filename": "./runs/1040834208.json"
   },
   {
     "id": "944762548",
     "date": "2017-04-16 10:30:41",
-    "elapsed_time": "3042",
-    "distance": "8087.7",
+    "elapsedTime": 3042,
+    "distance": 8087.7,
     "filename": "./runs/1045239009.json"
   },
   {
     "id": "950531654",
     "date": "2017-04-20 16:31:27",
-    "elapsed_time": "1889",
-    "distance": "5567.3",
+    "elapsedTime": 1889,
+    "distance": 5567.3,
     "filename": "./runs/1051166876.json"
   },
   {
     "id": "952445774",
     "date": "2017-04-22 06:40:03",
-    "elapsed_time": "2697",
-    "distance": "6045.6",
+    "elapsedTime": 2697,
+    "distance": 6045.6,
     "filename": "./runs/1053138021.json"
   },
   {
     "id": "954285436",
     "date": "2017-04-23 07:17:13",
-    "elapsed_time": "7157",
-    "distance": "21340.3",
+    "elapsedTime": 7157,
+    "distance": 21340.3,
     "filename": "./runs/1055040677.json"
   },
   {
     "id": "962526255",
     "date": "2017-04-29 09:40:08",
-    "elapsed_time": "3224",
-    "distance": "10036.6",
+    "elapsedTime": 3224,
+    "distance": 10036.6,
     "filename": "./runs/1063469234.json"
   },
   {
     "id": "969445734",
     "date": "2017-05-03 17:00:57",
-    "elapsed_time": "2417",
-    "distance": "7483.1",
+    "elapsedTime": 2417,
+    "distance": 7483.1,
     "filename": "./runs/1070610385.json"
   },
   {
     "id": "978338911",
     "date": "2017-05-09 15:56:58",
-    "elapsed_time": "3037",
-    "distance": "8253.8",
+    "elapsedTime": 3037,
+    "distance": 8253.8,
     "filename": "./runs/1079760261.json"
   },
   {
     "id": "982372267",
     "date": "2017-05-12 05:51:39",
-    "elapsed_time": "1772",
-    "distance": "5088.9",
+    "elapsedTime": 1772,
+    "distance": 5088.9,
     "filename": "./runs/1084478936.json"
   },
   {
     "id": "992673002",
     "date": "2017-05-17 16:26:11",
-    "elapsed_time": "2670",
-    "distance": "8069.2",
+    "elapsedTime": 2670,
+    "distance": 8069.2,
     "filename": "./runs/1094746999.json"
   },
   {
     "id": "1018883777",
     "date": "2017-06-03 08:19:54",
-    "elapsed_time": "1565",
-    "distance": "5060.2",
+    "elapsedTime": 1565,
+    "distance": 5060.2,
     "filename": "./runs/1121662401.json"
   },
   {
     "id": "1020260245",
     "date": "2017-06-04 07:31:35",
-    "elapsed_time": "2838",
-    "distance": "7094.8",
+    "elapsedTime": 2838,
+    "distance": 7094.8,
     "filename": "./runs/1123083236.json"
   },
   {
     "id": "1023465020",
     "date": "2017-06-06 05:48:25",
-    "elapsed_time": "1705",
-    "distance": "5173.3",
+    "elapsedTime": 1705,
+    "distance": 5173.3,
     "filename": "./runs/1126374298.json"
   },
   {
     "id": "1025601583",
     "date": "2017-06-07 17:04:30",
-    "elapsed_time": "4910",
-    "distance": "13645.5",
+    "elapsedTime": 4910,
+    "distance": 13645.5,
     "filename": "./runs/1128542951.json"
   },
   {
     "id": "1033584672",
     "date": "2017-06-12 18:28:46",
-    "elapsed_time": "2854",
-    "distance": "8124.5",
+    "elapsedTime": 2854,
+    "distance": 8124.5,
     "filename": "./runs/1136663211.json"
   },
   {
     "id": "1036649859",
     "date": "2017-06-14 17:02:08",
-    "elapsed_time": "5835",
-    "distance": "16134.0",
+    "elapsedTime": 5835,
+    "distance": 16134.0,
     "filename": "./runs/1139794854.json"
   },
   {
     "id": "1042527441",
     "date": "2017-06-18 10:15:59",
-    "elapsed_time": "8300",
-    "distance": "21411.7",
+    "elapsedTime": 8300,
+    "distance": 21411.7,
     "filename": "./runs/1145853848.json"
   },
   {
     "id": "1048437714",
     "date": "2017-06-21 17:33:01",
-    "elapsed_time": "2219",
-    "distance": "6100.7",
+    "elapsedTime": 2219,
+    "distance": 6100.7,
     "filename": "./runs/1151919502.json"
   },
   {
     "id": "1055163453",
     "date": "2017-06-26 15:18:12",
-    "elapsed_time": "2617",
-    "distance": "7643.3",
+    "elapsedTime": 2617,
+    "distance": 7643.3,
     "filename": "./runs/1158837628.json"
   },
   {
     "id": "1060772406",
     "date": "2017-06-30 05:34:59",
-    "elapsed_time": "3618",
-    "distance": "9943.6",
+    "elapsedTime": 3618,
+    "distance": 9943.6,
     "filename": "./runs/1164513453.json"
   },
   {
     "id": "1070783065",
     "date": "2017-07-06 17:04:57",
-    "elapsed_time": "3609",
-    "distance": "10064.4",
+    "elapsedTime": 3609,
+    "distance": 10064.4,
     "filename": "./runs/1174668326.json"
   },
   {
     "id": "1073181886",
     "date": "2017-07-08 08:06:32",
-    "elapsed_time": "5692",
-    "distance": "15108.1",
+    "elapsedTime": 5692,
+    "distance": 15108.1,
     "filename": "./runs/1177089922.json"
   },
   {
     "id": "1078427723",
     "date": "2017-07-11 15:18:07",
-    "elapsed_time": "1525",
-    "distance": "4614.7",
+    "elapsedTime": 1525,
+    "distance": 4614.7,
     "filename": "./runs/1182454758.json"
   },
   {
     "id": "1080295691",
     "date": "2017-07-12 17:43:52",
-    "elapsed_time": "3026",
-    "distance": "9168.7",
+    "elapsedTime": 3026,
+    "distance": 9168.7,
     "filename": "./runs/1184350290.json"
   },
   {
     "id": "1081855643",
     "date": "2017-07-13 17:35:39",
-    "elapsed_time": "1878",
-    "distance": "6216.5",
+    "elapsedTime": 1878,
+    "distance": 6216.5,
     "filename": "./runs/1185916379.json"
   },
   {
     "id": "1084195240",
     "date": "2017-07-15 09:56:32",
-    "elapsed_time": "3186",
-    "distance": "10044.8",
+    "elapsedTime": 3186,
+    "distance": 10044.8,
     "filename": "./runs/1188287970.json"
   },
   {
     "id": "1085870632",
     "date": "2017-07-16 07:51:22",
-    "elapsed_time": "7758",
-    "distance": "21230.3",
+    "elapsedTime": 7758,
+    "distance": 21230.3,
     "filename": "./runs/1190008605.json"
   },
   {
     "id": "1090065375",
     "date": "2017-07-18 18:19:19",
-    "elapsed_time": "1934",
-    "distance": "5967.8",
+    "elapsedTime": 1934,
+    "distance": 5967.8,
     "filename": "./runs/1194288190.json"
   },
   {
     "id": "1093324557",
     "date": "2017-07-20 18:05:56",
-    "elapsed_time": "3089",
-    "distance": "10035.5",
+    "elapsedTime": 3089,
+    "distance": 10035.5,
     "filename": "./runs/1197585982.json"
   },
   {
     "id": "1095678374",
     "date": "2017-07-22 08:49:27",
-    "elapsed_time": "5567",
-    "distance": "14893.4",
+    "elapsedTime": 5567,
+    "distance": 14893.4,
     "filename": "./runs/1199971732.json"
   },
   {
     "id": "1101088092",
     "date": "2017-07-25 16:57:36",
-    "elapsed_time": "2837",
-    "distance": "7865.2",
+    "elapsedTime": 2837,
+    "distance": 7865.2,
     "filename": "./runs/1205463430.json"
   },
   {
     "id": "1114346651",
     "date": "2017-08-02 18:20:38",
-    "elapsed_time": "2561",
-    "distance": "7986.3",
+    "elapsedTime": 2561,
+    "distance": 7986.3,
     "filename": "./runs/1218916523.json"
   },
   {
     "id": "1116404374",
     "date": "2017-08-04 05:21:31",
-    "elapsed_time": "2095",
-    "distance": "5562.8",
+    "elapsedTime": 2095,
+    "distance": 5562.8,
     "filename": "./runs/1220999590.json"
   },
   {
     "id": "1122219701",
     "date": "2017-08-07 16:45:09",
-    "elapsed_time": "4430",
-    "distance": "13318.0",
+    "elapsedTime": 4430,
+    "distance": 13318.0,
     "filename": "./runs/1226933953.json"
   },
   {
     "id": "1124905901",
     "date": "2017-08-09 10:26:13",
-    "elapsed_time": "2525",
-    "distance": "6099.6",
+    "elapsedTime": 2525,
+    "distance": 6099.6,
     "filename": "./runs/1229660370.json"
   },
   {
     "id": "1128160505",
     "date": "2017-08-11 11:57:21",
-    "elapsed_time": "4235",
-    "distance": "7425.9",
+    "elapsedTime": 4235,
+    "distance": 7425.9,
     "filename": "./runs/1232965035.json"
   },
   {
     "id": "1131090375",
     "date": "2017-08-13 08:47:10",
-    "elapsed_time": "4330",
-    "distance": "10130.6",
+    "elapsedTime": 4330,
+    "distance": 10130.6,
     "filename": "./runs/1235972391.json"
   },
   {
     "id": "1135362547",
     "date": "2017-08-15 17:48:43",
-    "elapsed_time": "3600",
-    "distance": "9983.1",
+    "elapsedTime": 3600,
+    "distance": 9983.1,
     "filename": "./runs/1240322505.json"
   },
   {
     "id": "1137116718",
     "date": "2017-08-16 17:26:44",
-    "elapsed_time": "5715",
-    "distance": "16303.9",
+    "elapsedTime": 5715,
+    "distance": 16303.9,
     "filename": "./runs/1242102686.json"
   },
   {
     "id": "1140059635",
     "date": "2017-08-18 16:49:08",
-    "elapsed_time": "3537",
-    "distance": "10109.6",
+    "elapsedTime": 3537,
+    "distance": 10109.6,
     "filename": "./runs/1245090847.json"
   },
   {
     "id": "1141650692",
     "date": "2017-08-19 15:04:46",
-    "elapsed_time": "1916",
-    "distance": "4785.7",
+    "elapsedTime": 1916,
+    "distance": 4785.7,
     "filename": "./runs/1246703082.json"
   },
   {
     "id": "1142841214",
     "date": "2017-08-20 08:54:52",
-    "elapsed_time": "9333",
-    "distance": "25163.7",
+    "elapsedTime": 9333,
+    "distance": 25163.7,
     "filename": "./runs/1247917272.json"
   },
   {
     "id": "1148531959",
     "date": "2017-08-23 17:41:58",
-    "elapsed_time": "3118",
-    "distance": "10074.8",
+    "elapsedTime": 3118,
+    "distance": 10074.8,
     "filename": "./runs/1253708985.json"
   },
   {
     "id": "1156936361",
     "date": "2017-08-28 17:15:22",
-    "elapsed_time": "3417",
-    "distance": "10086.5",
+    "elapsedTime": 3417,
+    "distance": 10086.5,
     "filename": "./runs/1262225668.json"
   },
   {
     "id": "1158571100",
     "date": "2017-08-29 17:36:37",
-    "elapsed_time": "2706",
-    "distance": "6057.2",
+    "elapsedTime": 2706,
+    "distance": 6057.2,
     "filename": "./runs/1263875238.json"
   },
   {
     "id": "1171394007",
     "date": "2017-09-06 16:59:15",
-    "elapsed_time": "2015",
-    "distance": "5164.2",
+    "elapsedTime": 2015,
+    "distance": 5164.2,
     "filename": "./runs/1276840673.json"
   },
   {
     "id": "1175515399",
     "date": "2017-09-09 10:44:52",
-    "elapsed_time": "6996",
-    "distance": "17097.5",
+    "elapsedTime": 6996,
+    "distance": 17097.5,
     "filename": "./runs/1281016571.json"
   },
   {
     "id": "1180757179",
     "date": "2017-09-12 16:16:30",
-    "elapsed_time": "3395",
-    "distance": "9916.8",
+    "elapsedTime": 3395,
+    "distance": 9916.8,
     "filename": "./runs/1286341679.json"
   },
   {
     "id": "1182412499",
     "date": "2017-09-13 16:55:16",
-    "elapsed_time": "3203",
-    "distance": "8155.1",
+    "elapsedTime": 3203,
+    "distance": 8155.1,
     "filename": "./runs/1288012502.json"
   },
   {
     "id": "1190242066",
     "date": "2017-09-18 14:40:14",
-    "elapsed_time": "9519",
-    "distance": "25125.1",
+    "elapsedTime": 9519,
+    "distance": 25125.1,
     "filename": "./runs/1295963366.json"
   },
   {
     "id": "1194985890",
     "date": "2017-09-21 17:00:37",
-    "elapsed_time": "1786",
-    "distance": "5907.2",
+    "elapsedTime": 1786,
+    "distance": 5907.2,
     "filename": "./runs/1300770399.json"
   },
   {
     "id": "1208293278",
     "date": "2017-09-24 14:44:54",
-    "elapsed_time": "1746",
-    "distance": "5075.7",
+    "elapsedTime": 1746,
+    "distance": 5075.7,
     "filename": "./runs/1314261609.json"
   },
   {
     "id": "1225702643",
     "date": "2017-10-11 16:08:18",
-    "elapsed_time": "1566",
-    "distance": "5039.1",
+    "elapsedTime": 1566,
+    "distance": 5039.1,
     "filename": "./runs/1331881979.json"
   },
   {
     "id": "1227337097",
     "date": "2017-10-12 16:04:19",
-    "elapsed_time": "1904",
-    "distance": "5117.3",
+    "elapsedTime": 1904,
+    "distance": 5117.3,
     "filename": "./runs/1333528431.json"
   },
   {
     "id": "1227338584",
     "date": "2017-10-12 16:37:00",
-    "elapsed_time": "2065",
-    "distance": "5670.4",
+    "elapsedTime": 2065,
+    "distance": 5670.4,
     "filename": "./runs/1333530001.json"
   },
   {
     "id": "1236314636",
     "date": "2017-10-18 15:51:52",
-    "elapsed_time": "3760",
-    "distance": "10083.6",
+    "elapsedTime": 3760,
+    "distance": 10083.6,
     "filename": "./runs/1342638504.json"
   },
   {
     "id": "1254375482",
     "date": "2017-10-30 15:59:50",
-    "elapsed_time": "1592",
-    "distance": "5063.6",
+    "elapsedTime": 1592,
+    "distance": 5063.6,
     "filename": "./runs/1360896878.json"
   },
   {
     "id": "1256687996",
     "date": "2017-11-01 16:31:31",
-    "elapsed_time": "1831",
-    "distance": "6184.9",
+    "elapsedTime": 1831,
+    "distance": 6184.9,
     "filename": "./runs/1363234103.json"
   },
   {
     "id": "1260452771",
     "date": "2017-11-04 09:38:52",
-    "elapsed_time": "4434",
-    "distance": "11377.2",
+    "elapsedTime": 4434,
+    "distance": 11377.2,
     "filename": "./runs/1367042640.json"
   },
   {
     "id": "1262156056",
     "date": "2017-11-05 10:16:55",
-    "elapsed_time": "5075",
-    "distance": "10502.9",
+    "elapsedTime": 5075,
+    "distance": 10502.9,
     "filename": "./runs/1368770373.json"
   },
   {
     "id": "1265387294",
     "date": "2017-11-07 16:39:54",
-    "elapsed_time": "1447",
-    "distance": "4579.1",
+    "elapsedTime": 1447,
+    "distance": 4579.1,
     "filename": "./runs/1372029522.json"
   },
   {
     "id": "1276226613",
     "date": "2017-11-15 11:53:10",
-    "elapsed_time": "1503",
-    "distance": "4968.4",
+    "elapsedTime": 1503,
+    "distance": 4968.4,
     "filename": "./runs/1382903042.json"
   },
   {
     "id": "1301618204",
     "date": "2017-12-04 10:35:12",
-    "elapsed_time": "1439",
-    "distance": "4570.5",
+    "elapsedTime": 1439,
+    "distance": 4570.5,
     "filename": "./runs/1408620184.json"
   },
   {
     "id": "1304614599",
     "date": "2017-12-06 16:58:20",
-    "elapsed_time": "1658",
-    "distance": "4991.2",
+    "elapsedTime": 1658,
+    "distance": 4991.2,
     "filename": "./runs/1411682259.json"
   },
   {
     "id": "1328884988",
     "date": "2017-12-27 10:01:44",
-    "elapsed_time": "2935",
-    "distance": "6598.7",
+    "elapsedTime": 2935,
+    "distance": 6598.7,
     "filename": "./runs/1436663858.json"
   },
   {
     "id": "1332838260",
     "date": "2017-12-30 10:41:33",
-    "elapsed_time": "2696",
-    "distance": "6272.8",
+    "elapsedTime": 2696,
+    "distance": 6272.8,
     "filename": "./runs/1440766817.json"
   },
   {
     "id": "1335774358",
     "date": "2018-01-01 10:53:57",
-    "elapsed_time": "3003",
-    "distance": "7032.2",
+    "elapsedTime": 3003,
+    "distance": 7032.2,
     "filename": "./runs/1443828679.json"
   },
   {
     "id": "1338793316",
     "date": "2018-01-03 12:03:13",
-    "elapsed_time": "2196",
-    "distance": "6246.9",
+    "elapsedTime": 2196,
+    "distance": 6246.9,
     "filename": "./runs/1446948614.json"
   },
   {
     "id": "1341778308",
     "date": "2018-01-05 11:09:29",
-    "elapsed_time": "2220",
-    "distance": "5367.7",
+    "elapsedTime": 2220,
+    "distance": 5367.7,
     "filename": "./runs/1450002368.json"
   },
   {
     "id": "1345565056",
     "date": "2018-01-07 08:58:15",
-    "elapsed_time": "6268",
-    "distance": "15002.8",
+    "elapsedTime": 6268,
+    "distance": 15002.8,
     "filename": "./runs/1453928030.json"
   },
   {
     "id": "1348283143",
     "date": "2018-01-09 11:40:24",
-    "elapsed_time": "1559",
-    "distance": "5024.7",
+    "elapsedTime": 1559,
+    "distance": 5024.7,
     "filename": "./runs/1456918799.json"
   },
   {
     "id": "1354513688",
     "date": "2018-01-13 09:22:35",
-    "elapsed_time": "5982",
-    "distance": "15209.9",
+    "elapsedTime": 5982,
+    "distance": 15209.9,
     "filename": "./runs/1463295979.json"
   },
   {
     "id": "1367528097",
     "date": "2018-01-16 12:56:31",
-    "elapsed_time": "1777",
-    "distance": "5103.5",
+    "elapsedTime": 1777,
+    "distance": 5103.5,
     "filename": "./runs/1476830274.json"
   },
   {
     "id": "1371636519",
     "date": "2018-01-21 10:43:15",
-    "elapsed_time": "1906",
-    "distance": "5225.0",
+    "elapsedTime": 1906,
+    "distance": 5225.0,
     "filename": "./runs/1481081484.json"
   },
   {
     "id": "1371636602",
     "date": "2018-01-23 16:31:30",
-    "elapsed_time": "3173",
-    "distance": "7519.4",
+    "elapsedTime": 3173,
+    "distance": 7519.4,
     "filename": "./runs/1481081495.json"
   },
   {
     "id": "1373228993",
     "date": "2018-01-24 16:30:50",
-    "elapsed_time": "3834",
-    "distance": "10139.4",
+    "elapsedTime": 3834,
+    "distance": 10139.4,
     "filename": "./runs/1482707444.json"
   },
   {
     "id": "1374410329",
     "date": "2018-01-25 11:28:10",
-    "elapsed_time": "1698",
-    "distance": "5259.1",
+    "elapsedTime": 1698,
+    "distance": 5259.1,
     "filename": "./runs/1483906343.json"
   },
   {
     "id": "1377401186",
     "date": "2018-01-27 09:18:37",
-    "elapsed_time": "6847",
-    "distance": "17615.2",
+    "elapsedTime": 6847,
+    "distance": 17615.2,
     "filename": "./runs/1486957475.json"
   },
   {
     "id": "1382731615",
     "date": "2018-01-30 11:49:50",
-    "elapsed_time": "1525",
-    "distance": "5171.1",
+    "elapsedTime": 1525,
+    "distance": 5171.1,
     "filename": "./runs/1492511845.json"
   },
   {
     "id": "1384976209",
     "date": "2018-01-31 16:44:47",
-    "elapsed_time": "3587",
-    "distance": "10034.6",
+    "elapsedTime": 3587,
+    "distance": 10034.6,
     "filename": "./runs/1494830337.json"
   },
   {
     "id": "1387692798",
     "date": "2018-02-02 12:02:23",
-    "elapsed_time": "1609",
-    "distance": "5064.6",
+    "elapsedTime": 1609,
+    "distance": 5064.6,
     "filename": "./runs/1497650239.json"
   },
   {
     "id": "1389126832",
     "date": "2018-02-03 09:29:03",
-    "elapsed_time": "7047",
-    "distance": "19065.8",
+    "elapsedTime": 7047,
+    "distance": 19065.8,
     "filename": "./runs/1499123818.json"
   },
   {
     "id": "1394167765",
     "date": "2018-02-06 11:51:29",
-    "elapsed_time": "1533",
-    "distance": "5119.2",
+    "elapsedTime": 1533,
+    "distance": 5119.2,
     "filename": "./runs/1504354705.json"
   },
   {
     "id": "1396492282",
     "date": "2018-02-07 18:23:01",
-    "elapsed_time": "3601",
-    "distance": "10199.4",
+    "elapsedTime": 3601,
+    "distance": 10199.4,
     "filename": "./runs/1506735982.json"
   },
   {
     "id": "1405395279",
     "date": "2018-02-13 11:23:10",
-    "elapsed_time": "2034",
-    "distance": "6709.6",
+    "elapsedTime": 2034,
+    "distance": 6709.6,
     "filename": "./runs/1516853051.json"
   },
   {
     "id": "1407597948",
     "date": "2018-02-14 17:19:49",
-    "elapsed_time": "5877",
-    "distance": "15013.0",
+    "elapsedTime": 5877,
+    "distance": 15013.0,
     "filename": "./runs/1519244007.json"
   },
   {
     "id": "1410008519",
     "date": "2018-02-16 10:43:16",
-    "elapsed_time": "2334",
-    "distance": "6524.7",
+    "elapsedTime": 2334,
+    "distance": 6524.7,
     "filename": "./runs/1521910905.json"
   },
   {
     "id": "1422926302",
     "date": "2018-02-17 09:00:47",
-    "elapsed_time": "1745",
-    "distance": "4500.6",
+    "elapsedTime": 1745,
+    "distance": 4500.6,
     "filename": "./runs/1535545429.json"
   },
   {
     "id": "1432765322",
     "date": "2018-02-28 16:30:08",
-    "elapsed_time": "2002",
-    "distance": "5147.6",
+    "elapsedTime": 2002,
+    "distance": 5147.6,
     "filename": "./runs/1545717862.json"
   },
   {
     "id": "1440952505",
     "date": "2018-03-05 11:33:31",
-    "elapsed_time": "2455",
-    "distance": "6547.5",
+    "elapsedTime": 2455,
+    "distance": 6547.5,
     "filename": "./runs/1554184472.json"
   },
   {
     "id": "1441283648",
     "date": "2018-03-07 17:13:12",
-    "elapsed_time": "2770",
-    "distance": "8068.6",
+    "elapsedTime": 2770,
+    "distance": 8068.6,
     "filename": "./runs/1554522631.json"
   },
   {
     "id": "1442693208",
     "date": "2018-03-08 16:44:16",
-    "elapsed_time": "5101",
-    "distance": "13068.1",
+    "elapsedTime": 5101,
+    "distance": 13068.1,
     "filename": "./runs/1555969040.json"
   },
   {
     "id": "1445207702",
     "date": "2018-03-10 09:04:24",
-    "elapsed_time": "5111",
-    "distance": "10522.6",
+    "elapsedTime": 5111,
+    "distance": 10522.6,
     "filename": "./runs/1558574647.json"
   },
   {
     "id": "1452175955",
     "date": "2018-03-13 17:08:14",
-    "elapsed_time": "3786",
-    "distance": "8031.5",
+    "elapsedTime": 3786,
+    "distance": 8031.5,
     "filename": "./runs/1565797411.json"
   },
   {
     "id": "1461019345",
     "date": "2018-03-15 17:18:10",
-    "elapsed_time": "2873",
-    "distance": "5076.9",
+    "elapsedTime": 2873,
+    "distance": 5076.9,
     "filename": "./runs/1574909112.json"
   },
   {
     "id": "1462886737",
     "date": "2018-03-20 16:59:52",
-    "elapsed_time": "3889",
-    "distance": "10065.2",
+    "elapsedTime": 3889,
+    "distance": 10065.2,
     "filename": "./runs/1576869238.json"
   },
   {
     "id": "1466194556",
     "date": "2018-03-22 17:19:37",
-    "elapsed_time": "3738",
-    "distance": "10054.5",
+    "elapsedTime": 3738,
+    "distance": 10054.5,
     "filename": "./runs/1580305317.json"
   },
   {
     "id": "1470836661",
     "date": "2018-03-25 09:15:58",
-    "elapsed_time": "7249",
-    "distance": "20054.3",
+    "elapsedTime": 7249,
+    "distance": 20054.3,
     "filename": "./runs/1585120975.json"
   },
   {
     "id": "1474985018",
     "date": "2018-03-27 16:02:54",
-    "elapsed_time": "3886",
-    "distance": "10036.2",
+    "elapsedTime": 3886,
+    "distance": 10036.2,
     "filename": "./runs/1589480514.json"
   },
   {
     "id": "1481311335",
     "date": "2018-03-31 07:59:20",
-    "elapsed_time": "9432",
-    "distance": "25039.8",
+    "elapsedTime": 9432,
+    "distance": 25039.8,
     "filename": "./runs/1596066761.json"
   },
   {
     "id": "1489415429",
     "date": "2018-04-04 15:42:30",
-    "elapsed_time": "5834",
-    "distance": "15072.6",
+    "elapsedTime": 5834,
+    "distance": 15072.6,
     "filename": "./runs/1604496862.json"
   },
   {
     "id": "1490992909",
     "date": "2018-04-05 15:18:14",
-    "elapsed_time": "2840",
-    "distance": "8039.7",
+    "elapsedTime": 2840,
+    "distance": 8039.7,
     "filename": "./runs/1606119083.json"
   },
   {
     "id": "1494033344",
     "date": "2018-04-07 07:08:38",
-    "elapsed_time": "11190",
-    "distance": "30030.7",
+    "elapsedTime": 11190,
+    "distance": 30030.7,
     "filename": "./runs/1609260717.json"
   },
   {
     "id": "1501107789",
     "date": "2018-04-10 16:28:22",
-    "elapsed_time": "4202",
-    "distance": "7526.5",
+    "elapsedTime": 4202,
+    "distance": 7526.5,
     "filename": "./runs/1616681492.json"
   },
   {
     "id": "1502620484",
     "date": "2018-04-11 16:18:28",
-    "elapsed_time": "3055",
-    "distance": "8003.8",
+    "elapsedTime": 3055,
+    "distance": 8003.8,
     "filename": "./runs/1618238006.json"
   },
   {
     "id": "1506466787",
     "date": "2018-04-12 15:19:12",
-    "elapsed_time": "3045",
-    "distance": "8025.3",
+    "elapsedTime": 3045,
+    "distance": 8025.3,
     "filename": "./runs/1622208275.json"
   },
   {
     "id": "1508144599",
     "date": "2018-04-14 07:39:40",
-    "elapsed_time": "13309",
-    "distance": "35005.4",
+    "elapsedTime": 13309,
+    "distance": 35005.4,
     "filename": "./runs/1623968560.json"
   },
   {
     "id": "1514144004",
     "date": "2018-04-17 15:24:01",
-    "elapsed_time": "2927",
-    "distance": "8077.6",
+    "elapsedTime": 2927,
+    "distance": 8077.6,
     "filename": "./runs/1630210994.json"
   },
   {
     "id": "1518352141",
     "date": "2018-04-19 15:28:12",
-    "elapsed_time": "2455",
-    "distance": "7521.8",
+    "elapsedTime": 2455,
+    "distance": 7521.8,
     "filename": "./runs/1634569946.json"
   },
   {
     "id": "1525734198",
     "date": "2018-04-22 09:00:58",
-    "elapsed_time": "8657",
-    "distance": "21245.7",
+    "elapsedTime": 8657,
+    "distance": 21245.7,
     "filename": "./runs/1642280659.json"
   },
   {
     "id": "1529031472",
     "date": "2018-04-24 15:41:53",
-    "elapsed_time": "2177",
-    "distance": "6756.2",
+    "elapsedTime": 2177,
+    "distance": 6756.2,
     "filename": "./runs/1645742530.json"
   },
   {
     "id": "1531196745",
     "date": "2018-04-25 15:58:12",
-    "elapsed_time": "1706",
-    "distance": "5067.0",
+    "elapsedTime": 1706,
+    "distance": 5067.0,
     "filename": "./runs/1647998995.json"
   },
   {
     "id": "1534406202",
     "date": "2018-04-26 17:28:51",
-    "elapsed_time": "2632",
-    "distance": "7526.7",
+    "elapsedTime": 2632,
+    "distance": 7526.7,
     "filename": "./runs/1651324086.json"
   },
   {
     "id": "1536717212",
     "date": "2018-04-28 12:36:09",
-    "elapsed_time": "4506",
-    "distance": "12517.6",
+    "elapsedTime": 4506,
+    "distance": 12517.6,
     "filename": "./runs/1653706003.json"
   },
   {
     "id": "1547272283",
     "date": "2018-05-03 15:43:41",
-    "elapsed_time": "1078",
-    "distance": "3134.6",
+    "elapsedTime": 1078,
+    "distance": 3134.6,
     "filename": "./runs/1664543906.json"
   },
   {
     "id": "1550320735",
     "date": "2018-05-05 07:53:09",
-    "elapsed_time": "1075",
-    "distance": "3137.2",
+    "elapsedTime": 1075,
+    "distance": 3137.2,
     "filename": "./runs/1667658897.json"
   },
   {
     "id": "1571710551",
     "date": "2018-05-14 15:43:59",
-    "elapsed_time": "3373",
-    "distance": "10067.4",
+    "elapsedTime": 3373,
+    "distance": 10067.4,
     "filename": "./runs/1690142571.json"
   },
   {
     "id": "1580099857",
     "date": "2018-05-18 15:37:18",
-    "elapsed_time": "1539",
-    "distance": "5104.5",
+    "elapsedTime": 1539,
+    "distance": 5104.5,
     "filename": "./runs/1698794724.json"
   },
   {
     "id": "1586864505",
     "date": "2018-05-21 15:46:58",
-    "elapsed_time": "1951",
-    "distance": "6006.1",
+    "elapsedTime": 1951,
+    "distance": 6006.1,
     "filename": "./runs/1705818346.json"
   },
   {
     "id": "1591212509",
     "date": "2018-05-23 15:50:27",
-    "elapsed_time": "3540",
-    "distance": "9252.8",
+    "elapsedTime": 3540,
+    "distance": 9252.8,
     "filename": "./runs/1710310218.json"
   },
   {
     "id": "1604008098",
     "date": "2018-05-29 15:53:26",
-    "elapsed_time": "2205",
-    "distance": "5048.6",
+    "elapsedTime": 2205,
+    "distance": 5048.6,
     "filename": "./runs/1723877417.json"
   },
   {
     "id": "1617029390",
     "date": "2018-06-04 15:53:34",
-    "elapsed_time": "2802",
-    "distance": "8006.3",
+    "elapsedTime": 2802,
+    "distance": 8006.3,
     "filename": "./runs/1737755479.json"
   },
   {
     "id": "1634034110",
     "date": "2018-06-12 15:41:07",
-    "elapsed_time": "2882",
-    "distance": "7999.6",
+    "elapsedTime": 2882,
+    "distance": 7999.6,
     "filename": "./runs/1755938005.json"
   },
   {
     "id": "1639502672",
     "date": "2018-06-15 05:49:34",
-    "elapsed_time": "2515",
-    "distance": "7020.8",
+    "elapsedTime": 2515,
+    "distance": 7020.8,
     "filename": "./runs/1761662157.json"
   },
   {
     "id": "1646674014",
     "date": "2018-06-18 15:38:26",
-    "elapsed_time": "3537",
-    "distance": "10016.0",
+    "elapsedTime": 3537,
+    "distance": 10016.0,
     "filename": "./runs/1769191965.json"
   },
   {
     "id": "1651176712",
     "date": "2018-06-20 16:04:17",
-    "elapsed_time": "3538",
-    "distance": "10002.5",
+    "elapsedTime": 3538,
+    "distance": 10002.5,
     "filename": "./runs/1773886421.json"
   },
   {
     "id": "1656371877",
     "date": "2018-06-22 15:38:26",
-    "elapsed_time": "2761",
-    "distance": "7056.2",
+    "elapsedTime": 2761,
+    "distance": 7056.2,
     "filename": "./runs/1779318771.json"
   },
   {
     "id": "1661651561",
     "date": "2018-06-25 16:55:19",
-    "elapsed_time": "1792",
-    "distance": "6148.1",
+    "elapsedTime": 1792,
+    "distance": 6148.1,
     "filename": "./runs/1784864608.json"
   },
   {
     "id": "1671091817",
     "date": "2018-06-30 08:23:28",
-    "elapsed_time": "1757",
-    "distance": "5139.7",
+    "elapsedTime": 1757,
+    "distance": 5139.7,
     "filename": "./runs/1794628906.json"
   },
   {
     "id": "1693002626",
     "date": "2018-07-09 16:43:26",
-    "elapsed_time": "1769",
-    "distance": "5046.6",
+    "elapsedTime": 1769,
+    "distance": 5046.6,
     "filename": "./runs/1817381155.json"
   },
   {
     "id": "1729416882",
     "date": "2018-07-26 15:37:12",
-    "elapsed_time": "3733",
-    "distance": "10016.4",
+    "elapsedTime": 3733,
+    "distance": 10016.4,
     "filename": "./runs/1855896788.json"
   },
   {
     "id": "1737128594",
     "date": "2018-07-30 05:21:08",
-    "elapsed_time": "1822",
-    "distance": "5520.8",
+    "elapsedTime": 1822,
+    "distance": 5520.8,
     "filename": "./runs/1863906123.json"
   },
   {
     "id": "1752534993",
     "date": "2018-08-03 05:25:08",
-    "elapsed_time": "1911",
-    "distance": "5011.3",
+    "elapsedTime": 1911,
+    "distance": 5011.3,
     "filename": "./runs/1881533114.json"
   },
   {
     "id": "1787709005",
     "date": "2018-08-06 17:08:36",
-    "elapsed_time": "2115",
-    "distance": "5543.0",
+    "elapsedTime": 2115,
+    "distance": 5543.0,
     "filename": "./runs/1918455885.json"
   },
   {
     "id": "1857874433",
     "date": "2018-09-20 15:03:38",
-    "elapsed_time": "2853",
-    "distance": "8038.8",
+    "elapsedTime": 2853,
+    "distance": 8038.8,
     "filename": "./runs/1990781770.json"
   },
   {
     "id": "1858275465",
     "date": "2018-09-22 13:02:23",
-    "elapsed_time": "1810",
-    "distance": "5439.3",
+    "elapsedTime": 1810,
+    "distance": 5439.3,
     "filename": "./runs/1991205865.json"
   },
   {
     "id": "1864093145",
     "date": "2018-09-24 15:59:35",
-    "elapsed_time": "2686",
-    "distance": "8025.3",
+    "elapsedTime": 2686,
+    "distance": 8025.3,
     "filename": "./runs/1997204257.json"
   },
   {
     "id": "1870403743",
     "date": "2018-09-26 16:38:27",
-    "elapsed_time": "1449",
-    "distance": "4079.5",
+    "elapsedTime": 1449,
+    "distance": 4079.5,
     "filename": "./runs/2003685865.json"
   },
   {
     "id": "1886866471",
     "date": "2018-10-04 15:16:12",
-    "elapsed_time": "2011",
-    "distance": "6025.2",
+    "elapsedTime": 2011,
+    "distance": 6025.2,
     "filename": "./runs/2020700253.json"
   },
   {
     "id": "1896410424",
     "date": "2018-10-10 15:36:14",
-    "elapsed_time": "2585",
-    "distance": "8026.1",
+    "elapsedTime": 2585,
+    "distance": 8026.1,
     "filename": "./runs/2030671955.json"
   },
   {
     "id": "1908590085",
     "date": "2018-10-16 15:44:59",
-    "elapsed_time": "3459",
-    "distance": "10077.0",
+    "elapsedTime": 3459,
+    "distance": 10077.0,
     "filename": "./runs/2043319873.json"
   },
   {
     "id": "1941357967",
     "date": "2018-10-18 14:57:51",
-    "elapsed_time": "2074",
-    "distance": "5527.5",
+    "elapsedTime": 2074,
+    "distance": 5527.5,
     "filename": "./runs/2077157078.json"
   },
   {
     "id": "1951372049",
     "date": "2018-11-05 15:56:34",
-    "elapsed_time": "3001",
-    "distance": "8010.6",
+    "elapsedTime": 3001,
+    "distance": 8010.6,
     "filename": "./runs/2087508361.json"
   },
   {
     "id": "1954748520",
     "date": "2018-11-07 16:18:32",
-    "elapsed_time": "2729",
-    "distance": "8039.7",
+    "elapsedTime": 2729,
+    "distance": 8039.7,
     "filename": "./runs/2090982050.json"
   },
   {
     "id": "1964652967",
     "date": "2018-11-14 16:32:53",
-    "elapsed_time": "2773",
-    "distance": "8015.4",
+    "elapsedTime": 2773,
+    "distance": 8015.4,
     "filename": "./runs/2101142148.json"
   },
   {
     "id": "2031055698",
     "date": "2018-12-07 11:14:38",
-    "elapsed_time": "1500",
-    "distance": "4522.6",
+    "elapsedTime": 1500,
+    "distance": 4522.6,
     "filename": "./runs/2170402998.json"
   },
   {
     "id": "2034497396",
     "date": "2018-12-25 10:10:40",
-    "elapsed_time": "1960",
-    "distance": "6001.9",
+    "elapsedTime": 1960,
+    "distance": 6001.9,
     "filename": "./runs/2174031809.json"
   },
   {
     "id": "2034497422",
     "date": "2018-12-23 11:42:24",
-    "elapsed_time": "1846",
-    "distance": "5528.1",
+    "elapsedTime": 1846,
+    "distance": 5528.1,
     "filename": "./runs/2174031768.json"
   },
   {
     "id": "2226237092",
     "date": "2019-03-18 16:49:27",
-    "elapsed_time": "1608",
-    "distance": "5061.7",
+    "elapsedTime": 1608,
+    "distance": 5061.7,
     "filename": "./runs/2371065768.json"
   },
   {
     "id": "2241243277",
     "date": "2019-03-26 06:46:04",
-    "elapsed_time": "1642",
-    "distance": "5049.3",
+    "elapsedTime": 1642,
+    "distance": 5049.3,
     "filename": "./runs/2386658581.json"
   },
   {
     "id": "2255036875",
     "date": "2019-03-29 06:59:52",
-    "elapsed_time": "1673",
-    "distance": "5148.8",
+    "elapsedTime": 1673,
+    "distance": 5148.8,
     "filename": "./runs/2400994334.json"
   },
   {
     "id": "2293505331",
     "date": "2019-04-02 05:18:44",
-    "elapsed_time": "1248",
-    "distance": "1525.8",
+    "elapsedTime": 1248,
+    "distance": 1525.8,
     "filename": "./runs/2441026790.json"
   },
   {
     "id": "2294940210",
     "date": "2019-04-16 14:36:40",
-    "elapsed_time": "2759",
-    "distance": "7066.5",
+    "elapsedTime": 2759,
+    "distance": 7066.5,
     "filename": "./runs/2442506064.json"
   },
   {
     "id": "2307041589",
     "date": "2019-04-21 09:42:30",
-    "elapsed_time": "4021",
-    "distance": "7081.0",
+    "elapsedTime": 4021,
+    "distance": 7081.0,
     "filename": "./runs/2455139046.json"
   },
   {
     "id": "2326168726",
     "date": "2019-04-28 15:50:10",
-    "elapsed_time": "2820",
-    "distance": "8055.5",
+    "elapsedTime": 2820,
+    "distance": 8055.5,
     "filename": "./runs/2475212929.json"
   },
   {
     "id": "2330609167",
     "date": "2019-04-30 14:01:23",
-    "elapsed_time": "2601",
-    "distance": "7594.6",
+    "elapsedTime": 2601,
+    "distance": 7594.6,
     "filename": "./runs/2479849140.json"
   },
   {
     "id": "2338829264",
     "date": "2019-05-03 14:55:11",
-    "elapsed_time": "2597",
-    "distance": "7033.2",
+    "elapsedTime": 2597,
+    "distance": 7033.2,
     "filename": "./runs/2488423511.json"
   }
 ]

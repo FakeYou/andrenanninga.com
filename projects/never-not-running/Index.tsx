@@ -1,14 +1,18 @@
 import React from 'react'
-import Marathon from './components/Marathon'
-import pragueMarathon from './data/prague-marathon.json'
-// import kosiceMarathon from './data/kosice-marathon.json'
 
 import { H1 } from '../../components/Typography'
+import Marathon from './components/Marathon'
+import DistanceVTime from './components/DistanceVTime'
+
+import pragueMarathon from './data/marathons/prague.json'
+
+const activities = require('./data/runs.json') as Activity[]
 
 const NeverNotRunning = () => (
   <>
     <H1>Running</H1>
-    <Marathon run={pragueMarathon} />
+    {/* <Marathon run={pragueMarathon} /> */}
+    <DistanceVTime activities={activities} />
   </>
 )
 
