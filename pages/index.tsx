@@ -37,7 +37,7 @@ const Index = () => (
       </P>
       <Ul>
         <Li>
-          <Link passHref href="https://fakeyou.github.io/tomb-raider">
+          <Link passHref href="https://andrenanninga.github.io/tomb-raider">
             <A target="_blank">Tomb Raider</A>
           </Link>{' '}
           — An experiment to display Tomb Raider 2 levels with three.js
@@ -51,7 +51,7 @@ const Index = () => (
         </Li>
 
         <Li>
-          <Link passHref href="https://fakeyou.github.io/ludum-dare-40/">
+          <Link passHref href="https://andrenanninga.github.io/ludum-dare-40/">
             <A target="_blank">Snake 🐍 Charmer</A>
           </Link>{' '}
           — Game made for Ludum Dare 40
